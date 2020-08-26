@@ -68,6 +68,7 @@ plugins:
   - id: nectar-rbac
   - id: node-iterator-api
   - id: oauth-credentials
+  - id: okhttp-api
   - id: operations-center-agent
   - id: operations-center-client
   - id: operations-center-cloud
