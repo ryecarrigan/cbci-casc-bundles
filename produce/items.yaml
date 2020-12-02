@@ -5,7 +5,6 @@ removeStrategy:
 items:
   - kind: folder
     name: fruits
-    description: ''
     groups:
       - name: team-fruit-ext
         roles:
@@ -14,7 +13,6 @@ items:
             propagates: 'false'
   - kind: folder
     name: vegetables
-    description: ''
     groups:
       - name: team-vegetables-ext
         roles:
