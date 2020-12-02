@@ -1,9 +1,23 @@
 removeStrategy:
-  items: "NONE"
-  rbac: "SYNC"
+  rbac: SYNC
+  items: NONE
 
 items:
-  - kind: "folder"
-    name: "fruits"
-  - kind: "folder"
-    name: "vegetables"
+  - kind: folder
+    name: fruits
+    description: ''
+    groups:
+      - name: team-fruit-ext
+        roles:
+          - name: browse
+            grantedAt: current
+            propagates: 'false'
+  - kind: folder
+    name: vegetables
+    description: ''
+    groups:
+      - name: team-vegetables-ext
+        roles:
+          - name: browse
+            grantedAt: current
+            propagates: 'false'
