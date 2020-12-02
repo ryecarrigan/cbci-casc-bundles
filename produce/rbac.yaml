@@ -2,18 +2,16 @@ removeStrategy:
   rbac: "SYNC"
 
 roles:
-  - permissions:
+  - name: administer
+    permissions:
       - hudson.model.Hudson.Administer
-    name: administer
-  - filterable: 'true'
+  - name: browser
     permissions:
       - hudson.model.Hudson.Read
-    name: browser
-  - filterable: 'true'
+  - name: developer
     permissions:
       - hudson.model.Hudson.Read
       - hudson.model.Item.Configure
-    name: developer
 
 groups:
   - members:
