@@ -68,8 +68,8 @@ roles:
     permissions:
       - hudson.model.Hudson.Read
   - name: "authenticated"
-    filterable: false
+    filterable: "false"
     permissions:
     - hudson.model.Hudson.Read
   - name: "anonymous"
-    filterable: false
+    filterable: "false"
