@@ -25,7 +25,6 @@ groups:
         - "ldap-developers"
     roles:
       - name: administer
-        filterable: "false"
         grantedAt: current
     name: Administrators
   - roles:
