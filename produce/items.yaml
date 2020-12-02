@@ -1,3 +1,9 @@
 removeStrategy:
   items: "NONE"
   rbac: "SYNC"
+
+items:
+  - kind: "folder"
+    name: "fruits"
+  - kind: "folder"
+    name: "vegetables"
