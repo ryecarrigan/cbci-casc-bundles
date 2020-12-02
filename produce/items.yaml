@@ -5,26 +5,9 @@ removeStrategy:
 items:
   - kind: "folder"
     name: "Acceptance Test Harness"
-    description: "This contains all the Acceptance Test Harness jobs"
-    groups:
-      - name: "Administrators group"
-        members:
-          users:
-            - "admin-user"
-        roles:
-          - name: "administer-role"
-            grantedAt: "current"
-            propagates: "false"
     items:
       - kind: "folder"
         name: "With test-a"
-        groups:
-          - name: "Test A Administrators"
-            members:
-              users:
-                - "admin-user"
-            roles:
-              - name: "administer-role"
         items:
           - kind: "folder"
             name: "product-a-ath"
