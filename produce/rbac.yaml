@@ -74,5 +74,5 @@ roles:
     filterable: false
     permissions:
     - hudson.model.Hudson.Read
-  - name: "anonymous”
-      filterable: "false"
+  - name: "anonymous"
+    filterable: "false"
