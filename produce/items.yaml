@@ -4,12 +4,6 @@ removeStrategy:
 
 items:
   - kind: "folder"
-    name: "Acceptance Test Harness"
-    items:
-      - kind: "folder"
-        name: "With test-a"
-        items:
-          - kind: "folder"
-            name: "product-a-ath"
-          - kind: "folder"
-            name: "product-b-ath"
+    name: "fruits"
+  - kind: "folder"
+    name: "vegetables"
