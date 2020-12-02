@@ -45,12 +45,10 @@ roles:
     permissions:
       - hudson.model.Hudson.Administer
   - name: "manager-role"
-    filterable: "false"
     permissions:
       - hudson.model.Hudson.Manage
       - hudson.model.Hudson.Read
   - name: "developer-role"
-    filterable: true
     permissions:
       - hudson.model.Hudson.Read
       - hudson.model.View.Delete
@@ -67,7 +65,6 @@ roles:
       - hudson.model.View.Create
       - hudson.model.Item.Delete
   - name: "browser-role"
-    filterable: true
     permissions:
       - hudson.model.Hudson.Read
   - name: "authenticated"
@@ -75,4 +72,4 @@ roles:
     permissions:
     - hudson.model.Hudson.Read
   - name: "anonymous"
-    filterable: "false"
+    filterable: false
