@@ -13,6 +13,7 @@ plugins:
   - {id: cloudbees-analytics}
   - {id: cloudbees-assurance}
   - {id: cloudbees-blueocean-default-theme}
+  - {id: cloudbees-casc-api}
   - {id: cloudbees-folder}
   - {id: cloudbees-folders-plus}
   - {id: cloudbees-github-reporting}
@@ -61,6 +62,7 @@ plugins:
   - {id: ldap}
   - {id: mailer}
   - {id: mapdb-api}
+  - {id: manage-permission}
   - {id: matrix-project}
   - {id: metrics}
   - {id: momentjs}

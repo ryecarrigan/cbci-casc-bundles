@@ -1,0 +1,9 @@
+type: plugin-catalog
+version: '1'
+name: rbac-casc-catalog
+displayName: Rbac with casc for preview
+configurations:
+  - description: casc-api-plugin not included in CAP during preview
+    includePlugins:
+      cloudbees-casc-api: {version: 0.7}
+      manage-permission: {version: 1.0.1}
