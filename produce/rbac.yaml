@@ -121,11 +121,20 @@ roles:
       - hudson.model.Hudson.Read
 
 groups:
+  - name: 'Administrators'
+    members:
+      users:
+        - 'rye'
+    roles:
+      - name: 'administer'
+        grantedAt: 'current'
+        propagates: 'true'
+
   - name: 'Browsers'
     members:
       unknown:
-        - authenticated
+        - 'authenticated'
     roles:
-      - name: browse
-        grantedAt: current
+      - name: 'browse'
+        grantedAt: 'current'
         propagates: 'false'
