@@ -1,12 +1,14 @@
-apiVersion: "1"
-id: "default"
-description: "Default configuration bundle"
-version: "12"
+apiVersion: '1'
+id: 'default'
+description: 'Default configuration bundle'
+version: '13'
 plugins:
-  - "plugins.yaml"
+  - 'plugins.yaml'
 jcasc:
-  - "jenkins.yaml"
+  - 'jenkins.yaml'
 catalog:
-  - "plugin-catalog.yaml"
+  - 'plugin-catalog.yaml'
 items:
-  - "items.yaml"
+  - 'items.yaml'
+rbac:
+  - 'rbac.yaml'
