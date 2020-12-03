@@ -3,9 +3,7 @@ removeStrategy:
 
 roles:
   - name: 'anonymous'
-    - permissions: ~
   - name: 'authenticated'
-    - permissions: ~
 
   - name: 'administer'
     permissions:
