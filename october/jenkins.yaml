@@ -1,6 +1,5 @@
 jenkins:
-  ystemMessage: "Hello World"
-  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
+  systemMessage: "Hello World"
   disabledAdministrativeMonitors:
     - "com.cloudbees.jenkins.support.impl.cloudbees.TcpSlaveAgentListenerMonitor"
   labelAtoms:

@@ -30,3 +30,17 @@ items:
           - name: 'develop'
             grantedAt: 'current'
             propagates: 'true'
+
+  - kind: 'folder'
+    name: 'more-vegetables'
+    groups:
+      - name: 'team-more-vegetables-int'
+        members:
+          external_groups:
+            - 'team-more-vegetables-ext'
+          users:
+            - 'vegetable-user'
+        roles:
+          - name: 'develop'
+            grantedAt: 'current'
+            propagates: 'true'
