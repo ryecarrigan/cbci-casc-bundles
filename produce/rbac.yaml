@@ -2,9 +2,6 @@ removeStrategy:
   rbac: 'SYNC'
 
 roles:
-  - name: 'anonymous'
-  - name: 'authenticated'
-
   - name: 'administer'
     permissions:
       # Overall
@@ -117,6 +114,13 @@ roles:
       - hudson.model.Item.Read
       - hudson.model.Item.Discover
       - hudson.model.View.Read
+
+  - name: 'authenticated'
+    filterable: 'false'
+    permissions:
+      - hudson.model.Hudson.Read
+  - name: 'anonymous'
+    filterable: 'false'
 
 groups:
   - name: auth-group
