@@ -119,12 +119,9 @@ roles:
     filterable: 'false'
     permissions:
       - hudson.model.Hudson.Read
-  - name: 'anonymous'
-    filterable: 'false'
-    permissions: null
 
 groups:
-  - name: auth-group
+  - name: 'Browsers'
     members:
       unknown:
         - authenticated
