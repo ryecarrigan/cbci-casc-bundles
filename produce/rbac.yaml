@@ -86,16 +86,6 @@ roles:
       - nectar.plugins.rbac.roles.Role.Filter
       - nectar.plugins.rbac.roles.Role.View
 
-      # Update Center
-      - com.cloudbees.plugins.updatecenter.UpdateCenter.Configure
-      - com.cloudbees.plugins.updatecenter.UpdateCenter.Promote
-      - com.cloudbees.plugins.updatecenter.UpdateCenter.Store
-      - com.cloudbees.plugins.updatecenter.UpdateCenter.Upload
-
-      # Client/Managed Controller
-      - com.cloudbees.opscenter.server.model.ClientMaster.Configure
-      - com.cloudbees.opscenter.server.model.ClientMaster.Lifecycle
-
   - name: 'develop'
     filterable: 'true'
     permissions:
