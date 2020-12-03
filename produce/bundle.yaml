@@ -10,5 +10,5 @@ catalog:
   - 'plugin-catalog.yaml'
 items:
   - 'items.yaml'
-rbac:
-  - 'rbac.yaml'
+#rbac:
+#  - 'rbac.yaml'
