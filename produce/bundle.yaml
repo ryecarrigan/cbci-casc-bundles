@@ -1,7 +1,7 @@
 apiVersion: "1"
 id: "default"
 description: "Default configuration bundle"
-version: "6"
+version: "7"
 plugins:
   - "plugins.yaml"
 jcasc:
