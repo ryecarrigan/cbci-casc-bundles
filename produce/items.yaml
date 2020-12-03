@@ -16,6 +16,7 @@ items:
           - name: 'develop'
             grantedAt: 'current'
             propagates: 'false'
+
   - kind: 'folder'
     name: 'vegetables'
     groups:
