@@ -38,14 +38,10 @@ unclassified:
     enabled: false
   gitHubConfiguration:
     apiRateLimitChecker: ThrottleForNormalize
-  gitHubPluginConfig:
-    hookUrl: "https://ci.rye.sh/produce/github-webhook/"
   gitSCM:
     createAccountBasedOnEmail: false
     showEntireCommitSummaryInChanges: false
     useExistingAccountWithSameEmail: false
-  location:
-    url: "https://ci.rye.sh/produce/"
   pollSCM:
     pollingThreadCount: 10
   usageStatisticsCloudBees:
