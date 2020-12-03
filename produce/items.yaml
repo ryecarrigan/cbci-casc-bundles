@@ -1,21 +1,27 @@
 removeStrategy:
-  rbac: SYNC
-  items: NONE
+  rbac: 'SYNC'
+  items: 'NONE'
 
 items:
-  - kind: folder
-    name: fruits
+  - kind: 'folder'
+    name: 'fruits'
     groups:
-      - name: team-fruit-ext
+      - name: 'team-fruit-int'
+        members:
+          external_groups:
+            - 'team-fruit-ext'
         roles:
-          - name: browse
-            grantedAt: current
+          - name: 'develop'
+            grantedAt: 'current'
             propagates: 'false'
-  - kind: folder
-    name: vegetables
+  - kind: 'folder'
+    name: 'vegetables'
     groups:
-      - name: team-vegetables-ext
+      - name: 'team-vegetables-int'
+        members:
+          external_groups:
+            - 'team-vegetables-ext'
         roles:
-          - name: browse
-            grantedAt: current
+          - name: 'develop'
+            grantedAt: 'current'
             propagates: 'false'
