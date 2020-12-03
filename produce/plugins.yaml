@@ -62,7 +62,6 @@ plugins:
   - id: ldap
   - id: mailer
   - id: mapdb-api
-  - id: manage-permission
   - id: matrix-project
   - id: metrics
   - id: momentjs
