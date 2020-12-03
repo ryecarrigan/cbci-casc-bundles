@@ -2,9 +2,6 @@ removeStrategy:
   rbac: 'SYNC'
 
 roles:
-  - name: 'anonymous'
-  - name: 'authenticated'
-
   - name: 'administer'
     permissions:
       # Overall
