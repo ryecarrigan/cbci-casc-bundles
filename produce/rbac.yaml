@@ -121,6 +121,7 @@ roles:
       - hudson.model.Hudson.Read
   - name: 'anonymous'
     filterable: 'false'
+    permissions: null
 
 groups:
   - name: auth-group
