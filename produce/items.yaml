@@ -15,7 +15,7 @@ items:
         roles:
           - name: 'develop'
             grantedAt: 'current'
-            propagates: 'false'
+            propagates: 'true'
 
   - kind: 'folder'
     name: 'vegetables'
@@ -29,4 +29,4 @@ items:
         roles:
           - name: 'develop'
             grantedAt: 'current'
-            propagates: 'false'
+            propagates: 'true'
