@@ -10,6 +10,8 @@ items:
         members:
           external_groups:
             - 'team-fruit-ext'
+          users:
+            - 'fruit-user'
         roles:
           - name: 'develop'
             grantedAt: 'current'
@@ -21,6 +23,8 @@ items:
         members:
           external_groups:
             - 'team-vegetables-ext'
+          users:
+            - 'vegetable-user'
         roles:
           - name: 'develop'
             grantedAt: 'current'
