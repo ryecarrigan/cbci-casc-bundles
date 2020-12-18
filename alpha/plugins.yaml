@@ -34,8 +34,6 @@ plugins:
   - {id: credentials}
   - {id: credentials-binding}
   - {id: display-url-api}
-  - {id: docker-commons}
-  - {id: docker-workflow}
   - {id: durable-task}
   - {id: echarts-api}
   - {id: email-ext}
@@ -47,7 +45,6 @@ plugins:
   - {id: github}
   - {id: github-api}
   - {id: github-branch-source}
-  - {id: google-oauth-plugin}
   - {id: gradle}
   - {id: handlebars}
   - {id: infradna-backup}

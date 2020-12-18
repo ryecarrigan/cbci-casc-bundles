@@ -47,6 +47,7 @@ unclassified:
       - allowVersionOverride: false
         defaultVersion: "master"
         implicit: true
+        includeInChangesets: false
         name: "pipeline-libraries"
         retriever:
           modernSCM:
