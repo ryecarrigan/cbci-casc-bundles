@@ -1,5 +1,5 @@
 jenkins:
-  systemMessage: "Hello World"
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
   disabledAdministrativeMonitors:
     - "com.cloudbees.jenkins.support.impl.cloudbees.TcpSlaveAgentListenerMonitor"
   labelAtoms:
@@ -11,6 +11,18 @@ jenkins:
   scmCheckoutRetryCount: 0
   securityRealm: "operationsCenter"
   slaveAgentPort: 50000
+globalLibraries:
+  libraries:
+    - allowVersionOverride: false
+      defaultVersion: "master"
+      implicit: true
+      name: "pipeline-libraries"
+      retriever:
+        modernSCM:
+          scm:
+            git:
+              credentialsId: "github"
+              remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
 beekeeper:
   enabled: true
   securityWarnings:

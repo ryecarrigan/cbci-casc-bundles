@@ -1,7 +1,7 @@
 apiVersion: '1'
-id: 'produce'
-description: 'Bundle for produce'
-version: '23'
+id: 'alpha'
+description: 'alpha bundle for demo'
+version: '1'
 
 plugins:
   - 'plugins.yaml'
@@ -9,7 +9,5 @@ jcasc:
   - 'jenkins.yaml'
 catalog:
   - 'plugin-catalog.yaml'
-items:
-  - 'items.yaml'
 rbac:
   - 'rbac.yaml'
