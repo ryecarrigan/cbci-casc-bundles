@@ -11,18 +11,6 @@ jenkins:
   scmCheckoutRetryCount: 0
   securityRealm: "operationsCenter"
   slaveAgentPort: 50000
-globalLibraries:
-  libraries:
-    - allowVersionOverride: false
-      defaultVersion: "master"
-      implicit: true
-      name: "pipeline-libraries"
-      retriever:
-        modernSCM:
-          scm:
-            git:
-              credentialsId: "github"
-              remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
 beekeeper:
   enabled: true
   securityWarnings:
@@ -54,6 +42,18 @@ unclassified:
     createAccountBasedOnEmail: false
     showEntireCommitSummaryInChanges: false
     useExistingAccountWithSameEmail: false
+  globalLibraries:
+    libraries:
+      - allowVersionOverride: false
+        defaultVersion: "master"
+        implicit: true
+        name: "pipeline-libraries"
+        retriever:
+          modernSCM:
+            scm:
+              git:
+                credentialsId: "github"
+                remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
   pollSCM:
     pollingThreadCount: 10
   usageStatisticsCloudBees:
