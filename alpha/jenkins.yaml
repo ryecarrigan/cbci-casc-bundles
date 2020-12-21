@@ -38,6 +38,11 @@ unclassified:
     enabled: false
   gitHubConfiguration:
     apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    configs:
+      - credentialsId: "github-api"
+        name: "GitHub"
+    hookUrl: "$JENKINS_BASE_URL/github-webhook/"
   gitSCM:
     createAccountBasedOnEmail: false
     showEntireCommitSummaryInChanges: false
