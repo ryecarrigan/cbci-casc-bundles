@@ -50,7 +50,7 @@ unclassified:
   globalLibraries:
     libraries:
       - allowVersionOverride: false
-        defaultVersion: "master"
+        defaultVersion: "main"
         implicit: true
         includeInChangesets: false
         name: "pipeline-libraries"
