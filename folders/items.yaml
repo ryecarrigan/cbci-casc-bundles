@@ -1,0 +1,28 @@
+removeStrategy:
+  items: 'NONE'
+  rbac: 'SYNC'
+
+items:
+  - kind: 'folder'
+    name: 'dogs'
+    groups:
+      - name: 'team-dog-int'
+        members:
+          external_groups:
+            - 'team-dog-ext'
+        roles:
+          - name: 'develop'
+            grantedAt: 'current'
+            propagates: 'true'
+
+  - kind: 'folder'
+    name: 'cats'
+    groups:
+      - name: 'team-cats-int'
+        members:
+          external_groups:
+            - 'team-cats-ext'
+        roles:
+          - name: 'develop'
+            grantedAt: 'current'
+            propagates: 'true'
