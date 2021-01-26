@@ -1,0 +1,7 @@
+apiVersion: '1'
+id: 'rbac'
+description: 'Bundle for RBAC demo'
+version: '1'
+
+rbac:
+  - 'rbac.yaml'
