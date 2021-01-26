@@ -1,7 +1,7 @@
 apiVersion: '1'
 id: 'rbac'
 description: 'Bundle for RBAC demo'
-version: '5'
+version: '1'
 
 jcasc:
   - 'jenkins.yaml'
