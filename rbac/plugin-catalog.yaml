@@ -5,5 +5,5 @@ displayName: Rbac with casc for preview
 configurations:
   - description: casc-api-plugin not included in CAP during preview
     includePlugins:
-      cloudbees-casc-api: {version: X.X}
-      manage-permission: {version: Y.Y}
+      cloudbees-casc-api: {version: 0.7}
+      manage-permission: {version: 1.0.1}
