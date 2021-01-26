@@ -8,3 +8,6 @@ configurations:
       cloudbees-casc-api: {
         version: 0.7
       }
+      manage-permission: {
+         version: 1.0.1
+      }
