@@ -141,4 +141,3 @@ roles:
 
   - name: 'anonymous'
     filterable: 'false'
-    permissions: []
