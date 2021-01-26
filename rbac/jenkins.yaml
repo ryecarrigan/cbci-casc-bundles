@@ -1,0 +1,3 @@
+jenkins:
+  systemMessage: "Configured automatically by Configuration as Code for Masters - with RBAC \n\n"
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl"

@@ -1,6 +1,25 @@
 removeStrategy:
   rbac: 'SYNC'
 
+groups:
+  - name: 'Administrators'
+    members:
+      users:
+        - 'rye'
+    roles:
+      - name: 'administer'
+        grantedAt: 'current'
+        propagates: 'true'
+
+  - name: 'Browsers'
+    members:
+      unknown:
+        - 'authenticated'
+    roles:
+      - name: 'browse'
+        grantedAt: 'current'
+        propagates: 'false'
+
 roles:
   - name: 'administer'
     permissions:
@@ -119,22 +138,3 @@ roles:
     filterable: 'false'
     permissions:
       - hudson.model.Hudson.Read
-
-groups:
-  - name: 'Administrators'
-    members:
-      users:
-        - 'rye'
-    roles:
-      - name: 'administer'
-        grantedAt: 'current'
-        propagates: 'true'
-
-  - name: 'Browsers'
-    members:
-      unknown:
-        - 'authenticated'
-    roles:
-      - name: 'browse'
-        grantedAt: 'current'
-        propagates: 'false'

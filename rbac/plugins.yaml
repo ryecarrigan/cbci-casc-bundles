@@ -1,0 +1,4 @@
+plugins:
+  - {id: cloudbees-casc-api}
+  - {id: configuration-as-code}
+  - {id: nectar-rbac}
