@@ -6,8 +6,10 @@ plugins:
   - {id: aws-credentials}
   - {id: aws-java-sdk}
   - {id: blueocean-commons}
+  - {id: bootstrap4-api}
   - {id: bouncycastle-api}
   - {id: branch-api}
+  - {id: checks-api}
   - {id: cloudbees-administrative-monitors}
   - {id: cloudbees-analytics}
   - {id: cloudbees-assurance}
@@ -21,10 +23,14 @@ plugins:
   - {id: cloudbees-license}
   - {id: cloudbees-monitoring}
   - {id: cloudbees-nodes-plus}
+  - {id: cloudbees-platform-common}
+  - {id: cloudbees-platform-data}
+  - {id: cloudbees-plugin-usage}
   - {id: cloudbees-ssh-slaves}
   - {id: cloudbees-support}
   - {id: cloudbees-template}
   - {id: cloudbees-uc-data-api}
+  - {id: cloudbees-unified-ui}
   - {id: cloudbees-view-creation-filter}
   - {id: cloudbees-workflow-template}
   - {id: cloudbees-workflow-ui}
@@ -34,8 +40,9 @@ plugins:
   - {id: credentials-binding}
   - {id: display-url-api}
   - {id: durable-task}
+  - {id: echarts-api}
   - {id: email-ext}
-  - {id: form-element-path}
+  - {id: font-awesome-api}
   - {id: git}
   - {id: git-client}
   - {id: git-server}
@@ -44,11 +51,13 @@ plugins:
   - {id: github-branch-source}
   - {id: gradle}
   - {id: handlebars}
+  - {id: handy-uri-templates-2-api}
   - {id: infradna-backup}
   - {id: jackson2-api}
   - {id: jaxb}
   - {id: jdk-tool}
-  - {id: jquery-detached}
+  - {id: jjwt-api}
+  - {id: jquery3-api}
   - {id: jsch}
   - {id: junit}
   - {id: kube-agent-management}
@@ -82,6 +91,8 @@ plugins:
   - {id: pipeline-stage-tags-metadata}
   - {id: pipeline-stage-view}
   - {id: plain-credentials}
+  - {id: plugin-util-api}
+  - {id: popper-api}
   - {id: scm-api}
   - {id: script-security}
   - {id: snakeyaml-api}
