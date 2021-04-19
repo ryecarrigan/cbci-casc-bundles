@@ -1,0 +1,46 @@
+jenkins:
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
+  disabledAdministrativeMonitors:
+    - "com.cloudbees.jenkins.support.impl.cloudbees.TcpSlaveAgentListenerMonitor"
+  labelAtoms:
+    - name: "master"
+  numExecutors: 0
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm: "operationsCenter"
+  slaveAgentPort: 50000
+beekeeper:
+  enabled: true
+  securityWarnings:
+    enabledForCore: true
+    enabledForPlugins: true
+  upgrades:
+    autoDowngradePlugins: false
+    autoUpgradePlugins: false
+security:
+  anonymizeSupportBundle:
+    enabled: false
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  sSHD:
+    port: -1
+unclassified:
+  buildDiscarders:
+    configuredBuildDiscarders:
+      - "jobBuildDiscarder"
+  cloudBeesSCMReporting:
+    enabled: false
+  experimentalPlugins:
+    enabled: false
+  gitSCM:
+    createAccountBasedOnEmail: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  pollSCM:
+    pollingThreadCount: 10
+  usageStatisticsCloudBees:
+    usageStatisticsCollected: false

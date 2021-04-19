@@ -1,6 +1,6 @@
 apiVersion: '1'
-id: 'alpha'
-description: 'alpha bundle for demo'
+id: 'beta'
+description: 'beta bundle for demo'
 version: '1'
 
 plugins:
