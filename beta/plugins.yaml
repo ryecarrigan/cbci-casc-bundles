@@ -9,6 +9,7 @@ plugins:
   - {id: bootstrap4-api}
   - {id: bouncycastle-api}
   - {id: branch-api}
+  - {id: checkmarx}
   - {id: checks-api}
   - {id: cloudbees-administrative-monitors}
   - {id: cloudbees-analytics}
