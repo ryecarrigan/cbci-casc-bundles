@@ -1,6 +1,6 @@
 apiVersion: '1'
-id: 'alpha'
-description: 'alpha bundle for demo'
+id: 'default'
+description: 'Default CasC bundle'
 version: '1'
 
 plugins:

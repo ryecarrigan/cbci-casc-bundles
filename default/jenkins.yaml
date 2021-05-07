@@ -26,21 +26,17 @@ security:
     creationOfLegacyTokenEnabled: false
     tokenGenerationOnCreationEnabled: false
     usageStatisticsEnabled: true
-  sSHD:
-    port: -1
 unclassified:
   buildDiscarders:
     configuredBuildDiscarders:
       - "jobBuildDiscarder"
   cloudBeesSCMReporting:
-    enabled: true
+    enabled: false
   experimentalPlugins:
     enabled: false
-  gitHubConfiguration:
-    apiRateLimitChecker: ThrottleForNormalize
   gitHubPluginConfig:
     configs:
-      - credentialsId: "github-api"
+      - credentialsId: "github-token"
         name: "GitHub"
     hookUrl: "$JENKINS_BASE_URL/github-webhook/"
   gitSCM:
@@ -58,9 +54,7 @@ unclassified:
           modernSCM:
             scm:
               git:
-                credentialsId: "github"
+                credentialsId: "github-key"
                 remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
-  pollSCM:
-    pollingThreadCount: 10
   usageStatisticsCloudBees:
     usageStatisticsCollected: false
