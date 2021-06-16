@@ -11,6 +11,7 @@ jenkins:
   scmCheckoutRetryCount: 0
   securityRealm: "operationsCenter"
   slaveAgentPort: 50000
+  systemMessage: "Configured automatically by Configuration as Code for Controllers\n\n"
 beekeeper:
   enabled: true
   securityWarnings:

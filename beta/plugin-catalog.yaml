@@ -1,9 +1,0 @@
-type: plugin-catalog
-version: '1'
-name: checkmarx-catalog
-displayName: Catalog including Checkmarx plugin
-configurations:
-  - description: Checkmarx not included in CAP
-    includePlugins:
-      checkmarx:
-        version: 2021.1.2
