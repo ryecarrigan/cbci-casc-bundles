@@ -1,5 +1,4 @@
 jenkins:
-  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
   disabledAdministrativeMonitors:
     - "com.cloudbees.jenkins.support.impl.cloudbees.TcpSlaveAgentListenerMonitor"
   labelAtoms:
