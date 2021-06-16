@@ -8,7 +8,6 @@ jenkins:
   remotingSecurity:
     enabled: true
   scmCheckoutRetryCount: 0
-  securityRealm: "operationsCenter"
   slaveAgentPort: 50000
 beekeeper:
   enabled: true
@@ -46,7 +45,7 @@ unclassified:
     libraries:
       - allowVersionOverride: false
         defaultVersion: "main"
-        implicit: true
+        implicit: false
         includeInChangesets: false
         name: "pipeline-libraries"
         retriever:
