@@ -3,7 +3,6 @@ id: 'rbac'
 description: 'Bundle for RBAC demo'
 version: '4'
 
-parent: 'default'
 jcasc:
   - 'jenkins.yaml'
 plugins:
