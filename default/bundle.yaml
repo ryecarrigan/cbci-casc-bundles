@@ -3,7 +3,7 @@ id: 'default'
 description: 'Default CasC bundle'
 version: '2'
 
-plugins:
-  - 'plugins.yaml'
 jcasc:
   - 'jenkins.yaml'
+plugins:
+  - 'plugins.yaml'

@@ -1,9 +1,11 @@
 apiVersion: '1'
 id: 'plugins'
 description: 'Configuration bundle without Jenkins CasC'
-version: '3'
+version: '4'
 
 parent: 'default'
+jcasc:
+  - 'jenkins.yaml'
 plugins:
   - 'plugins.yaml'
 catalog:

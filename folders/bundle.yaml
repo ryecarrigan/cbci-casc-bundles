@@ -1,8 +1,10 @@
 apiVersion: '1'
 id: 'folders'
 description: 'Bundle for Folders demo'
-version: '2'
+version: '3'
 
 parent: 'default'
+jcasc:
+  - 'jenkins.yaml'
 items:
   - 'items.yaml'
