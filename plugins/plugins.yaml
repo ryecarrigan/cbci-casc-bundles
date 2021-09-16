@@ -78,6 +78,7 @@ plugins:
   - {id: pipeline-build-step}
   - {id: pipeline-graph-analysis}
   - {id: pipeline-input-step}
+  - {id: pipeline-maven}
   - {id: pipeline-milestone-step}
   - {id: pipeline-model-api}
   - {id: pipeline-model-declarative-agent}
