@@ -1,46 +1,12 @@
 jenkins:
-  disabledAdministrativeMonitors:
-    - "com.cloudbees.jenkins.support.impl.cloudbees.TcpSlaveAgentListenerMonitor"
-  labelAtoms:
-    - name: "master"
-  numExecutors: 0
-  quietPeriod: 5
   remotingSecurity:
     enabled: true
-  scmCheckoutRetryCount: 0
-  slaveAgentPort: 50000
-beekeeper:
-  enabled: true
-  securityWarnings:
-    enabledForCore: true
-    enabledForPlugins: true
-  upgrades:
-    autoDowngradePlugins: false
-    autoUpgradePlugins: false
-security:
-  anonymizeSupportBundle:
-    enabled: false
-  apiToken:
-    creationOfLegacyTokenEnabled: false
-    tokenGenerationOnCreationEnabled: false
-    usageStatisticsEnabled: true
 unclassified:
-  buildDiscarders:
-    configuredBuildDiscarders:
-      - "jobBuildDiscarder"
-  cloudBeesSCMReporting:
-    enabled: false
-  experimentalPlugins:
-    enabled: false
   gitHubPluginConfig:
     configs:
       - credentialsId: "github-token"
         name: "GitHub"
     hookUrl: "$JENKINS_BASE_URL/github-webhook/"
-  gitSCM:
-    createAccountBasedOnEmail: false
-    showEntireCommitSummaryInChanges: false
-    useExistingAccountWithSameEmail: false
   globalLibraries:
     libraries:
       - allowVersionOverride: false
