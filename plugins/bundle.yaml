@@ -6,5 +6,3 @@ version: '4'
 parent: 'default'
 plugins:
   - 'plugins.yaml'
-catalog:
-  - 'plugin-catalog.yaml'
