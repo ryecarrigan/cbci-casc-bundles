@@ -4,8 +4,6 @@ description: 'Configuration bundle without Jenkins CasC'
 version: '4'
 
 parent: 'default'
-jcasc:
-  - 'jenkins.yaml'
 plugins:
   - 'plugins.yaml'
 catalog:
