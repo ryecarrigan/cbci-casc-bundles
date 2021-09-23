@@ -20,5 +20,8 @@ unclassified:
               git:
                 credentialsId: "github-key"
                 remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
+  hibernationConfiguration:
+    enabled: true
+    gracePeriod: 300
   usageStatisticsCloudBees:
     usageStatisticsCollected: false
