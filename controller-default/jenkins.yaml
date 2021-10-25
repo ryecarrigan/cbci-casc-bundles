@@ -1,6 +1,7 @@
 jenkins:
   remotingSecurity:
     enabled: true
+
 unclassified:
   gitHubPluginConfig:
     configs:
