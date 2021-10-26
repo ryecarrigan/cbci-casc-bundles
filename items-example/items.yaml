@@ -1,0 +1,57 @@
+removeStrategy:
+  items: 'NONE'
+  rbac: 'SYNC'
+
+items:
+  - kind: freeStyle
+    name: freestyle-example
+    displayName: Freestyle Job example
+    builders:
+      - shell:
+          command: |-
+            #!/usr/bin/env bash
+            echo "Hello world"
+
+  - kind: organizationFolder
+    name: github-example
+    displayName: GitHub Organization example
+    navigators:
+      - github:
+          repoOwner: rye-codes
+    projectFactories:
+      - workflowMultiBranchProjectFactory:
+          scriptPath: Jenkinsfile
+
+  - kind: multibranch
+    name: multibranch-example
+    displayName: Multibranch Pipeline example
+    projectFactory:
+      workflowBranchProjectFactory:
+        scriptPath: Jenkinsfile
+    sourcesList:
+      - branchSource:
+          source:
+            git:
+              credentialsId: github-key
+              remote: git@github.com:ryecarrigan/simple-maven-project-with-tests.git
+
+  - kind: pipeline
+    name: pipeline-example
+    displayName: Pipeline Job example
+    definition:
+      cpsFlowDefinition:
+        sandbox: true
+        script: |
+          pipeline {
+              agent {
+                  kubernetes true
+              }
+
+              stages {
+                  stage('Hello') {
+                      steps {
+                          echo 'Hello World'
+                      }
+                  }
+              }
+          }
