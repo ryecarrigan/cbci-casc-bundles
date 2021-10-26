@@ -6,6 +6,11 @@ jenkins:
       - id: "cap-core-mm"
         url: "https://jenkins-updates.cloudbees.com/update-center/envelope-core-mm/update-center.json"
 
+kube:
+  podTemplatesConfiguration:
+    templates:
+      - label: "agent"
+
 unclassified:
   gitHubPluginConfig:
     configs:
