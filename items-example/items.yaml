@@ -19,6 +19,9 @@ items:
     navigators:
       - github:
           repoOwner: rye-codes
+          traits:
+            - gitHubBranchDiscovery:
+                strategyId: 1
     projectFactories:
       - workflowMultiBranchProjectFactory:
           scriptPath: Jenkinsfile
@@ -35,6 +38,8 @@ items:
             git:
               credentialsId: github-key
               remote: git@github.com:ryecarrigan/simple-maven-project-with-tests.git
+              traits:
+                - gitBranchDiscovery: {}
 
   - kind: pipeline
     name: pipeline-example
