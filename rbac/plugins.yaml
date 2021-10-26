@@ -1,5 +1,0 @@
-plugins:
-  - {id: cloudbees-casc-api}
-  - {id: configuration-as-code}
-  - {id: manage-permission}
-  - {id: nectar-rbac}
