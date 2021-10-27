@@ -3,5 +3,7 @@ id: 'plugins'
 description: 'Configuration bundle without Jenkins CasC'
 
 parent: 'controller-default'
+availabilityPattern: 'plugins\/.*'
+
 plugins:
   - 'plugins.yaml'
