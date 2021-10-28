@@ -3,11 +3,6 @@ removeStrategy:
   rbac: 'SYNC'
 
 items:
-  - kind: folder
-    displayName: Demo
-    name: demo
-    description: 'Demo folder'
-
   - kind: freeStyle
     name: freestyle-example
     displayName: Freestyle Job example
