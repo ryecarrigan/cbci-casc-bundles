@@ -4,5 +4,3 @@ description: 'Default CasC bundle'
 
 jcasc:
   - 'jenkins.yaml'
-plugins:
-  - 'plugins.yaml'

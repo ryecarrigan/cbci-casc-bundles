@@ -1,8 +1,9 @@
 apiVersion: '1'
 id: 'examples'
 description: 'Items example'
+availabilityPattern: '.*'
 
-parent: 'controller-default'
+parent: 'default-global'
 jcasc:
   - 'jenkins.yaml'
 items:
