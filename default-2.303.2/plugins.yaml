@@ -101,6 +101,7 @@ plugins:
 - id: token-macro
 - id: trilead-api
 - id: unique-id
+- id: user-activity-monitoring
 - id: variant
 - id: workflow-aggregator
 - id: workflow-api
