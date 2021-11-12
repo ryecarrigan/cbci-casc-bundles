@@ -3,7 +3,6 @@ id: 'config-files'
 description: 'Config file provider example'
 availabilityPattern: '.*'
 
-parent: 'default-2.303.3'
 jcasc:
   - 'jenkins.yaml'
 items:
