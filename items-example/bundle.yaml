@@ -3,7 +3,7 @@ id: 'examples'
 description: 'Items example'
 availabilityPattern: '.*'
 
-parent: 'default-2.303.2'
+parent: 'default-2.319.2'
 jcasc:
   - 'jenkins.yaml'
 items:
