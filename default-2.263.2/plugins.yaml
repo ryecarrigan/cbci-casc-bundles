@@ -16,6 +16,7 @@ plugins:
   - id: cloudbees-folder
   - id: cloudbees-folders-plus
   - id: cloudbees-license
+  - id: cloudbees-monitoring
   - id: cloudbees-support
   - id: cloudbees-uc-data-api
   - id: command-launcher
@@ -48,6 +49,7 @@ plugins:
   - id: mapdb-api
   - id: metrics
   - id: momentjs
+  - id: monitoring
   - id: nectar-license
   - id: nectar-rbac
   - id: oauth-credentials
