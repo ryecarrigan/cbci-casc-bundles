@@ -22,5 +22,11 @@ unclassified:
                 remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
                 traits:
                   - "gitBranchDiscovery"
+  prometheusConfiguration:
+    collectingMetricsPeriodInSeconds: 10
+  provisioningLimitConfiguration:
+    limit:
+      executors: 50
+      nodes: 50
   usageStatisticsCloudBees:
     usageStatisticsCollected: false

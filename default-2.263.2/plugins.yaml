@@ -13,6 +13,7 @@ plugins:
   - id: cloudbees-assurance
   - id: cloudbees-blueocean-default-theme
   - id: cloudbees-casc-api
+  - id: cloudbees-disk-usage-simple
   - id: cloudbees-folder
   - id: cloudbees-folders-plus
   - id: cloudbees-license
@@ -26,6 +27,7 @@ plugins:
   - id: display-url-api
   - id: durable-task
   - id: echarts-api
+  - id: extended-read-permission
   - id: font-awesome-api
   - id: form-element-path
   - id: git
@@ -71,6 +73,7 @@ plugins:
   - id: plain-credentials
   - id: plugin-util-api
   - id: popper-api
+  - id: prometheus
   - id: scm-api
   - id: script-security
   - id: snakeyaml-api
