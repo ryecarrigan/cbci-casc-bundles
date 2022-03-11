@@ -19,7 +19,7 @@ unclassified:
     hookUrl: "$JENKINS_BASE_URL/github-webhook/"
   globalLibraries:
     libraries:
-      - allowVersionOverride: false
+      - allowVersionOverride: true
         defaultVersion: "main"
         implicit: false
         includeInChangesets: false
