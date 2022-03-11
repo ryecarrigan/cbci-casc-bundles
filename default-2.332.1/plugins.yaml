@@ -21,6 +21,7 @@ plugins:
 - id: cloudbees-casc-items-api
 - id: cloudbees-casc-items-commons
 - id: cloudbees-casc-items-controller
+- id: cloudbees-disk-usage-simple
 - id: cloudbees-folder
 - id: cloudbees-folders-plus
 - id: cloudbees-groovy-view
@@ -101,6 +102,7 @@ plugins:
 - id: plugin-util-api
 - id: popper-api
 - id: popper2-api
+- id: prometheus
 - id: scm-api
 - id: script-security
 - id: snakeyaml-api

@@ -33,5 +33,9 @@ unclassified:
   hibernationConfiguration:
     enabled: false
     gracePeriod: 300
+  provisioningLimitConfiguration:
+    limit:
+      executors: 50
+      nodes: 50
   usageStatisticsCloudBees:
     usageStatisticsCollected: false
