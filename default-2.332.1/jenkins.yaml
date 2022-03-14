@@ -5,4 +5,4 @@ notificationConfiguration:
   router: operationsCenter
 unclassified:
   cloudbeesPrometheus:
-    collectingMetricsPeriodInSeconds: 120
+    collectingMetricsPeriodInSeconds: 30
