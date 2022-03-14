@@ -3,3 +3,6 @@ jenkins:
 notificationConfiguration:
   enabled: true
   router: operationsCenter
+unclassified:
+  cloudbeesPrometheus:
+    collectingMetricsPeriodInSeconds: 120
