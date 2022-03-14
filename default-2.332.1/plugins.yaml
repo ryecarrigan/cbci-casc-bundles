@@ -21,7 +21,6 @@ plugins:
 - id: cloudbees-casc-items-api
 - id: cloudbees-casc-items-commons
 - id: cloudbees-casc-items-controller
-- id: cloudbees-disk-usage-simple
 - id: cloudbees-folder
 - id: cloudbees-folders-plus
 - id: cloudbees-groovy-view
@@ -31,6 +30,7 @@ plugins:
 - id: cloudbees-platform-common
 - id: cloudbees-platform-data
 - id: cloudbees-plugin-usage
+- id: cloudbees-prometheus
 - id: cloudbees-support
 - id: cloudbees-template
 - id: cloudbees-uc-data-api
@@ -73,7 +73,6 @@ plugins:
 - id: mapdb-api
 - id: metrics
 - id: momentjs
-- id: monitoring
 - id: nectar-license
 - id: nectar-rbac
 - id: node-iterator-api
@@ -102,7 +101,6 @@ plugins:
 - id: plugin-util-api
 - id: popper-api
 - id: popper2-api
-- id: prometheus
 - id: scm-api
 - id: script-security
 - id: snakeyaml-api
