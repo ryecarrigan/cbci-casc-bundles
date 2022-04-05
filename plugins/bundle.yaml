@@ -2,6 +2,7 @@ apiVersion: '1'
 id: 'plugins'
 description: 'Configuration bundle with extra plugins'
 availabilityPattern: '.*'
+version: '1'
 
 parent: 'default-global'
 plugins:

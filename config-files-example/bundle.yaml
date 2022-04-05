@@ -2,6 +2,7 @@ apiVersion: '1'
 id: 'config-files'
 description: 'Config file provider example'
 availabilityPattern: '.*'
+version: '1'
 
 jcasc:
   - 'jenkins.yaml'

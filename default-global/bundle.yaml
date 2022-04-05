@@ -2,6 +2,7 @@ apiVersion: '1'
 id: 'default'
 description: 'Default CasC bundle'
 availabilityPattern: ''
+version: '1'
 
 jcasc:
   - 'jenkins.yaml'
