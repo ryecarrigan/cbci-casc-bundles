@@ -1,7 +1,0 @@
-type: plugin-catalog
-version: '1'
-name: casc-catalog
-displayName: CasC plugin catalog
-configurations: {
-
-}
