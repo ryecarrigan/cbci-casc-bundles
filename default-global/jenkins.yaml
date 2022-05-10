@@ -1,10 +1,6 @@
 jenkins:
   remotingSecurity:
     enabled: true
-  updateCenter:
-    sites:
-      - id: "cap-core-mm"
-        url: "https://jenkins-updates.cloudbees.com/update-center/envelope-core-mm/update-center.json"
 
 kube:
   podTemplatesConfiguration:
