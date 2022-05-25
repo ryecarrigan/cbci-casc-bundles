@@ -16,6 +16,8 @@ unclassified:
   globalLibraries:
     libraries:
       - allowVersionOverride: true
+        cachingConfiguration:
+          refreshTimeMinutes: 1440
         defaultVersion: "main"
         implicit: false
         includeInChangesets: false
