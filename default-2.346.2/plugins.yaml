@@ -71,6 +71,7 @@ plugins:
   - id: mailer
   - id: managed-master-hibernation
   - id: mapdb-api
+  - id: matrix-project
   - id: metrics
   - id: momentjs
   - id: nectar-license
