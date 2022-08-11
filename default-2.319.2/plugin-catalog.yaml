@@ -6,4 +6,4 @@ configurations:
   - description: Non-CAP plugins
     includePlugins:
       gitlab-plugin:
-        version: '1.5.35'
+        version: '1.5.25'
