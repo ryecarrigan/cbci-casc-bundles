@@ -7,5 +7,3 @@ configurations:
     includePlugins:
       cloudbees-prometheus:
         version: '1.0'
-      gitlab-plugin:
-        version: '1.5.24'
