@@ -39,6 +39,7 @@ plugins:
   - id: cloudbees-workflow-ui
   - id: command-launcher
   - id: configuration-as-code
+  - id: configuration-as-code-groovy
   - id: credentials
   - id: credentials-binding
   - id: display-url-api
