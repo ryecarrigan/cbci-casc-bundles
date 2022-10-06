@@ -8,4 +8,7 @@ unclassified:
     collectingMetricsPeriodInSeconds: 30
 groovy:
   - script: >
-      println("This is Groovy script!");
+      import java.util.logging.Logger
+
+      Logger logger = Logger.getLogger('testing.groovy');
+      logger.info('Testing log output from CasC Groovy script.')
