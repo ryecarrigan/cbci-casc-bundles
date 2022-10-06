@@ -7,13 +7,13 @@ unclassified:
   cloudbeesPrometheus:
     collectingMetricsPeriodInSeconds: 30
 groovy:
-  - script: >
+  - script: |
       import java.util.logging.Logger
       import jenkins.model.Jenkins
       import com.cloudbees.plugins.credentials.CredentialsProvider
       import org.jenkinsci.plugins.plaincredentials.StringCredentials
 
-      Logger logger = Logger.getLogger('testing.groovy');
+      Logger logger = Logger.getLogger('testing.groovy')
       logger.info('Testing log output from CasC Groovy script.')
 
       def credentialsId = 'github-token'
