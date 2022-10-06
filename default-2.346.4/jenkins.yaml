@@ -13,11 +13,15 @@ groovy:
       import com.cloudbees.plugins.credentials.CredentialsProvider
       import org.jenkinsci.plugins.plaincredentials.StringCredentials
 
-      Logger logger = Logger.getLogger('testing.groovy')
-      logger.info('Testing log output from CasC Groovy script.')
+      Logger scriptLogger = Logger.getLogger('testing.groovy')
+      scriptLogger.info('Testing log output from CasC Groovy script.')
 
-      CredentialsProvider.lookupCredentials(StringCredentials, Jenkins.get()).each { creds ->
-        logger.info("Found credentials: ${creds.id}")
+      def credentialsId = 'github-token'
+      def credentials = CredentialsProvider.lookupCredentials(StringCredentials, Jenkins.get()).find { it.id == credentialsId }
+      if (!credentials) {
+        scriptLogger.warning("Cannot find credentials with ID: ${credentialsId}")
+      } else {
+        scriptLogger.info("Found credentials with ID: ${credentialsId}")
       }
 
-      logger.info('Testing log output from CasC Groovy script. (exit)')
+      scriptLogger.info('Testing log output from CasC Groovy script. (exit)')
