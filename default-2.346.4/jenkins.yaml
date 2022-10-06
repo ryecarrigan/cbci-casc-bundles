@@ -9,6 +9,18 @@ unclassified:
 groovy:
   - script: >
       import java.util.logging.Logger
+      import jenkins.model.Jenkins
+      import com.cloudbees.plugins.credentials.CredentialsProvider
+      import org.jenkinsci.plugins.plaincredentials.StringCredentials
 
       Logger logger = Logger.getLogger('testing.groovy');
       logger.info('Testing log output from CasC Groovy script.')
+
+      def credentialsId = 'github-token'
+
+      def credentials = CredentialsProvider.lookupCredentials(StringCredentials, Jenkins.get()).find { it.id == credentialsId }
+      if (!credentials) {
+        logger.info("Cannot find username/password credentials with ID: ${credentialsId}")
+      } else {
+        logger.info("Found credentials: ${credentialsId}")
+      }
