@@ -1,6 +1,6 @@
 jenkins:
-  remotingSecurity:
-    enabled: true
+  clouds:
+    operationsCenterAgentProvisioningService: {}
 
 kube:
   podTemplatesConfiguration:
