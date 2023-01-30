@@ -98,7 +98,6 @@ plugins:
   - id: pipeline-stage-view
   - id: plain-credentials
   - id: plugin-util-api
-  - id: popper2-api
   - id: scm-api
   - id: script-security
   - id: snakeyaml-api
