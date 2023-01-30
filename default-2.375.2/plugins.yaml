@@ -6,7 +6,6 @@ plugins:
   - id: aws-java-sdk-ec2
   - id: aws-java-sdk-minimal
   - id: blueocean-commons
-  - id: bootstrap4-api
   - id: bootstrap5-api
   - id: bouncycastle-api
   - id: branch-api
@@ -44,7 +43,6 @@ plugins:
   - id: credentials-binding
   - id: display-url-api
   - id: durable-task
-  - id: echarts-api
   - id: font-awesome-api
   - id: git
   - id: git-client
