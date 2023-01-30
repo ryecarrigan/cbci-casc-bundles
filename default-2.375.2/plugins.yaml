@@ -72,7 +72,6 @@ plugins:
   - id: mina-sshd-api-common
   - id: mina-sshd-api-core
   - id: mina-sshd-api-sftp
-  - id: momentjs
   - id: nectar-license
   - id: nectar-rbac
   - id: node-iterator-api
