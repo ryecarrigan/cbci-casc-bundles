@@ -1,0 +1,15 @@
+apiVersion: '1'
+id: 'clouds'
+description: 'Bundle with examples of clouds with CasC'
+availabilityPattern: '.*'
+parent: 'default-2.375.2'
+
+jcasc:
+  - "jenkins.yaml"
+  - "clouds/*"
+
+plugins:
+  - 'plugins.yaml'
+
+items:
+  - 'folders/*'
