@@ -59,6 +59,7 @@ plugins:
   - id: jaxb
   - id: jdk-tool
   - id: jjwt-api
+  - id: jquery3-api
   - id: jsch
   - id: kube-agent-management
   - id: kubernetes
