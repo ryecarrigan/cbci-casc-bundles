@@ -6,6 +6,7 @@ parent: 'default-2.375.2'
 version: '1'
 
 jcasc:
+  - 'jenkins.yaml'
   - 'clouds/'
 items:
   - 'folders/'
