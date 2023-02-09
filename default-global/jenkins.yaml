@@ -1,3 +1,7 @@
+jenkins:
+  clouds:
+    - operationsCenterAgentProvisioningService
+
 kube:
   podTemplatesConfiguration:
     templates:

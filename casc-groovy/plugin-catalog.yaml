@@ -1,9 +1,0 @@
-type: plugin-catalog
-version: '1'
-name: default
-
-configurations:
-  - description: Non-CAP plugins
-    includePlugins:
-      configuration-as-code-groovy:
-        version: '1.1'
