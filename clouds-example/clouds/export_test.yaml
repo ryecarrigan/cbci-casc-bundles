@@ -2,7 +2,6 @@ jenkins:
   clouds:
     - kubernetes:
         addMasterProxyEnvVars: 'true'
-        capOnlyOnAlivePods: 'false'
         connectTimeout: '5'
         containerCap: '10'
         credentialsId: github-token
@@ -12,7 +11,7 @@ jenkins:
         jenkinsUrl: iii
         jnlpregistry: oku
         maxRequestsPerHost: '32'
-        name: kubernetes-5
+        name: kubernetes-2
         namespace: ok
         podLabels: null
         podRetention: ONFAILURE
