@@ -56,6 +56,7 @@ jenkins:
                 runAsUser: '1000'
                 ttyEnabled: 'false'
                 workingDir: /home/jenkins/agent
+            envVars: null
             hostNetwork: 'false'
             id: c5244369-363e-4b09-b7fb-e7a301242659
             idleMinutes: '0'
