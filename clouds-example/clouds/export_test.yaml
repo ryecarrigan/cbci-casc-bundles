@@ -24,7 +24,6 @@ jenkins:
         skipTlsVerify: 'true'
         templates:
           - activeDeadlineSeconds: '0'
-            alwaysPullImage: 'false'
             annotations: null
             containers:
               - alwaysPullImage: 'true'
