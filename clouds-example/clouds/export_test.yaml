@@ -1,0 +1,28 @@
+jenkins:
+  clouds:
+    - kubernetes:
+        addMasterProxyEnvVars: 'true'
+        capOnlyOnAlivePods: 'false'
+        connectTimeout: '5'
+        containerCap: '10'
+        credentialsId: github-token
+        defaultsProviderTemplate: oo
+        directConnection: 'true'
+        jenkinsTunnel: iii
+        jenkinsUrl: iii
+        jnlpregistry: oku
+        maxRequestsPerHost: '32'
+        name: kubernetes-5
+        namespace: ok
+        podLabels: null
+        podRetention: ONFAILURE
+        readTimeout: '15'
+        retentionTimeout: '5'
+        serverCertificate: kewy
+        serverUrl: url
+        skipTlsVerify: 'true'
+        templates: null
+        usageRestricted: 'true'
+        useJenkinsProxy: 'true'
+        waitForPodSec: '600'
+        webSocket: 'true'
