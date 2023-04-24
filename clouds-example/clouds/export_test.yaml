@@ -13,14 +13,65 @@ jenkins:
         maxRequestsPerHost: '32'
         name: kubernetes-2
         namespace: ok
-        podLabels: null
+        podLabels:
+          - key: jenkins
+            value: slave
         podRetention: never
         readTimeout: '15'
         retentionTimeout: '5'
         serverCertificate: kewy
         serverUrl: url
         skipTlsVerify: 'true'
-        templates: null
+        templates:
+          - activeDeadlineSeconds: '0'
+            alwaysPullImage: 'false'
+            annotations: null
+            capOnlyOnAlivePods: 'false'
+            containers:
+              - alwaysPullImage: 'true'
+                args: '9999999'
+                command: sleep
+                envVars:
+                  - key: key
+                    value: value
+                image: custom/image
+                livenessProbe:
+                  execArgs: exec
+                  failureThreshold: '2'
+                  initialDelaySeconds: '0'
+                  periodSeconds: '3'
+                  successThreshold: '4'
+                  timeoutSeconds: '1'
+                name: jnlp
+                ports:
+                  - containerPort: '80'
+                    hostPort: '80'
+                    name: port
+                privileged: 'true'
+                resourceLimitCpu: '1'
+                resourceLimitEphemeralStorage: null
+                resourceLimitMemory: '2048'
+                resourceRequestCpu: '1'
+                resourceRequestEphemeralStorage: null
+                resourceRequestMemory: '2048'
+                runAsGroup: '1000'
+                runAsUser: '1000'
+                ttyEnabled: 'false'
+                workingDir: /home/jenkins/agent
+            hostNetwork: 'false'
+            id: c5244369-363e-4b09-b7fb-e7a301242659
+            idleMinutes: '0'
+            imagePullSecrets: null
+            instanceCap: '2147483647'
+            label: label1 label2
+            name: jnlp
+            namespace: namespace
+            nodeProperties: null
+            privileged: 'false'
+            showRawYaml: 'true'
+            slaveConnectTimeout: '1000'
+            volumes: null
+            yamlMergeStrategy: Overrides
         usageRestricted: 'true'
         useJenkinsProxy: 'true'
         waitForPodSec: '600'
