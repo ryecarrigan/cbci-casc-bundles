@@ -14,7 +14,7 @@ jenkins:
         name: kubernetes-2
         namespace: ok
         podLabels: null
-        podRetention: on_Failure
+        podRetention: never
         readTimeout: '15'
         retentionTimeout: '5'
         serverCertificate: kewy
