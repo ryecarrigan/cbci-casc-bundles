@@ -26,7 +26,6 @@ jenkins:
           - activeDeadlineSeconds: '0'
             alwaysPullImage: 'false'
             annotations: null
-            capOnlyOnAlivePods: 'false'
             containers:
               - alwaysPullImage: 'true'
                 args: '9999999'
