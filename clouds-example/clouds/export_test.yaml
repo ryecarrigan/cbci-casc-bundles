@@ -29,6 +29,10 @@ jenkins:
               - alwaysPullImage: 'true'
                 args: '9999999'
                 command: sleep
+                envVars:
+                  - envVar:
+                      key: key
+                      value: value
                 image: custom/image
                 livenessProbe:
                   execArgs: exec
@@ -53,6 +57,7 @@ jenkins:
                 runAsUser: '1000'
                 ttyEnabled: 'false'
                 workingDir: /home/jenkins/agent
+            envVars: []
             hostNetwork: 'false'
             id: c5244369-363e-4b09-b7fb-e7a301242659
             idleMinutes: '0'
@@ -65,7 +70,7 @@ jenkins:
             showRawYaml: 'true'
             slaveConnectTimeout: '1000'
             volumes: null
-            yamlMergeStrategy: Overrides
+            yamlMergeStrategy: override
         usageRestricted: 'true'
         useJenkinsProxy: 'true'
         waitForPodSec: '600'
