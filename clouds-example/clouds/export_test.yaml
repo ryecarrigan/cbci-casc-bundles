@@ -24,7 +24,9 @@ jenkins:
         skipTlsVerify: 'true'
         templates:
           - activeDeadlineSeconds: '0'
-            annotations: null
+            annotations:
+              - key: lololl
+                value: lmaoooo
             containers:
               - alwaysPullImage: 'true'
                 args: '9999999'
@@ -69,7 +71,12 @@ jenkins:
             nodeProperties: null
             showRawYaml: 'true'
             slaveConnectTimeout: '1000'
-            volumes: null
+            volumes:
+              - configMapVolume:
+                  configMapName: cjoc-configure-jenkins-groovy
+                  mountPath: /tmp/config
+                  optional: 'true'
+                  subPath: location.groovy
             yamlMergeStrategy: override
         usageRestricted: 'true'
         useJenkinsProxy: 'true'
