@@ -1,8 +1,0 @@
-jenkins:
-  systemMessage: "Configured automatically by Configuration as Code for Controllers (2.332.1)\n\n"
-notificationConfiguration:
-  enabled: true
-  router: operationsCenter
-unclassified:
-  cloudbeesPrometheus:
-    collectingMetricsPeriodInSeconds: 30
