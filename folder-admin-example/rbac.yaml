@@ -14,14 +14,12 @@ groups:
     roles:
       - name: developer
         grantedAt: child
+        propagates: 'false'
   - name: Browsers
-    members:
-      users:
-        - orange
-        - purple
     roles:
       - name: browser
-        grantedAt: child
+        grantedAt: current
+        propagates: 'false'
 roles:
   - name: administrator
     filterable: 'false'
@@ -44,10 +42,13 @@ roles:
   - name: browser
     filterable: 'true'
     permissions:
-      - hudson.model.Hudson.Read
+      - hudson.model.Item.Discover
+      - hudson.model.Item.Read
+      - hudson.model.View.Read
   - name: authenticated
     filterable: 'false'
-    permissions: []
+    permissions:
+      - hudson.model.Hudson.Read
   - name: anonymous
     filterable: 'false'
     permissions: []

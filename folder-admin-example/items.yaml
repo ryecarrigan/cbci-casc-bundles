@@ -17,6 +17,7 @@ items:
         roles:
           - name: browser
             grantedAt: current
+            propagates: false
       - name: team-folder-admin
         members:
           users:
@@ -29,7 +30,7 @@ items:
       - name: team-folder-developer
         members:
           internal_groups:
-            - team-orange-int
+            - team-folder
         roles:
           - name: developer
             grantedAt: child
