@@ -26,7 +26,8 @@ items:
         roles:
           - name: administrator
             grantedAt: child
-            propagates: true
+          - name: developer
+            grantedAt: current
       - name: team-folder-developer
         members:
           internal_groups:
