@@ -1,0 +1,10 @@
+apiVersion: '1'
+id: 'folder-admin-example'
+description: 'Example bundle demonstrating the folder admin pattern'
+availabilityPattern: '.*'
+version: '1'
+
+items:
+  - "items.yaml"
+rbac:
+  - "rbac.yaml"
