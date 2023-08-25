@@ -9,7 +9,6 @@ items:
     displayName: Team Projects
     groups:
       - name: team-folder
-        description: "Group to allow members of the team to view the team folder"
         members:
           users:
             - orange
@@ -19,7 +18,6 @@ items:
           - name: browser
             grantedAt: current
       - name: team-folder-admin
-        description: "Group to grant admin to items within the folder"
         members:
           users:
             - orange
@@ -29,7 +27,6 @@ items:
             grantedAt: child
             propagates: true
       - name: team-folder-developer
-        description: "Group to grant developer to items within the folder"
         members:
           internal_groups:
             - team-orange-int
