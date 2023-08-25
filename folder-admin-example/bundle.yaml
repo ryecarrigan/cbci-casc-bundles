@@ -4,6 +4,8 @@ description: 'Example bundle demonstrating the folder admin pattern'
 availabilityPattern: '.*'
 version: '1'
 
+jcasc:
+  - "jenkins.yaml"
 items:
   - "items.yaml"
 rbac:
