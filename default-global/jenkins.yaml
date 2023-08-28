@@ -24,7 +24,7 @@ unclassified:
                 credentialsId: "github-key"
                 remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
   hibernationConfiguration:
-    enabled: false
+    enabled: true
     gracePeriod: 300
   provisioningLimitConfiguration:
     limit:
