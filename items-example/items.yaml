@@ -34,12 +34,16 @@ items:
         scriptPath: Jenkinsfile
     sourcesList:
       - branchSource:
+          buildStrategies:
+            - skipInitialBuildOnFirstIndexingResetRevision: {}
           source:
             git:
               credentialsId: github-key
               remote: git@github.com:ryecarrigan/simple-maven-project-with-tests.git
               traits:
                 - gitBranchDiscovery: {}
+          strategy:
+            allBranchesSame: {}
 
   - kind: cloudbeesTemplatedJob
     name: template-example
