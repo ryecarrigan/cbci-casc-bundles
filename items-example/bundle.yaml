@@ -4,6 +4,6 @@ description: 'Items example'
 availabilityPattern: '.*'
 version: '1'
 
-parent: 'default-2.375'
+parent: 'default-2.414'
 items:
   - 'items.yaml'
