@@ -16,6 +16,8 @@ items:
   - kind: organizationFolder
     name: github-example
     displayName: GitHub Organization example
+    buildStrategies:
+      - skipInitialBuildOnFirstIndexingResetRevision: {}
     navigators:
       - github:
           repoOwner: rye-codes
@@ -25,6 +27,8 @@ items:
     projectFactories:
       - workflowMultiBranchProjectFactory:
           scriptPath: Jenkinsfile
+    strategy:
+      allBranchesSame: {}
 
   - kind: multibranch
     name: multibranch-example
