@@ -13,22 +13,6 @@ unclassified:
       - credentialsId: "github-token"
         name: "GitHub"
     hookUrl: "$JENKINS_BASE_URL/github-webhook/"
-  globalLibraries:
-    libraries:
-      - allowVersionOverride: true
-        defaultVersion: "main"
-        implicit: false
-        includeInChangesets: false
-        name: "pipeline-libraries"
-        retriever:
-          modernSCM:
-            scm:
-              git:
-                credentialsId: "github-key"
-                remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
-  hibernationConfiguration:
-    enabled: true
-    gracePeriod: 300
   provisioningLimitConfiguration:
     limit:
       executors: 50
