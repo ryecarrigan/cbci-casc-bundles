@@ -2,5 +2,4 @@ jenkins:
   clouds:
     - operationsCenterAgentProvisioningService
   systemMessage: |
-    Configured automatically by Configuration as Code for Controllers (2.387.1)
-    System message: "${HELLO_WORLD}"
+    Configured automatically by Configuration as Code for Controllers (2.387)
