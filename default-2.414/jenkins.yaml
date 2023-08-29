@@ -3,3 +3,19 @@ jenkins:
     - operationsCenterAgentProvisioningService
   systemMessage: |
     Configured automatically by Configuration as Code for Controllers (2.414)
+
+unclassified:
+  globalLibraries:
+    libraries:
+      - allowVersionOverride: true
+        defaultVersion: "main"
+        implicit: false
+        includeInChangesets: false
+        name: "pipeline-libraries"
+        retriever:
+          modernSCM:
+            clone: true
+            scm:
+              git:
+                credentialsId: "github-key"
+                remote: "git@github.com:ryecarrigan/pipeline-libraries.git"

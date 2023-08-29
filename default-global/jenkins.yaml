@@ -18,7 +18,6 @@ unclassified:
         name: "pipeline-libraries"
         retriever:
           modernSCM:
-            clone: true
             scm:
               git:
                 credentialsId: "github-key"
@@ -31,4 +30,5 @@ unclassified:
       executors: 50
       nodes: 50
   usageStatisticsCloudBees:
+    disabledJenkinsUsageStatistics: true
     usageStatisticsCollected: false
