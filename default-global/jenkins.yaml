@@ -3,6 +3,10 @@ kube:
     templates:
       - label: "agent"
 
+security:
+  gitHostKeyVerificationConfiguration:
+    sshHostKeyVerificationStrategy: "acceptFirstConnectionStrategy"
+
 unclassified:
   gitHubPluginConfig:
     configs:
