@@ -42,13 +42,11 @@ items:
                 - gitBranchDiscovery: {}
 
   - kind: cloudbeesTemplatedJob
-    catalog: demo-catalog
     name: template-example
+    displayName: Pipeline Template example
+    catalog: demo-catalog
     model: demo-catalog/java-maven
     attributes:
-      - type: string
-        value: template-example
-        key: name
       - type: string
         value: git@github.com:ryecarrigan/simple-maven-project-with-tests.git
         key: github_repo
