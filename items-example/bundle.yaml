@@ -5,5 +5,7 @@ availabilityPattern: '.*'
 version: '1'
 
 parent: 'default-2.414'
+jcasc:
+  - "jenkins.yaml"
 items:
   - 'items.yaml'
