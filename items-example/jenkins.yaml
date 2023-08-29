@@ -1,0 +1,8 @@
+globalCloudBeesPipelineTemplateCatalog:
+  catalogs:
+    - branchOrTag: "main"
+      scm:
+        git:
+          credentialsId: "github-key"
+          id: "04914880-cfa6-4c27-a087-57edcd8eea77"
+          remote: "git@github.com:ryecarrigan/pipeline-templates.git"

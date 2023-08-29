@@ -1,5 +1,5 @@
 removeStrategy:
-  items: 'NONE'
+  items: 'SYNC'
   rbac: 'SYNC'
 
 items:
@@ -40,3 +40,18 @@ items:
               remote: git@github.com:ryecarrigan/simple-maven-project-with-tests.git
               traits:
                 - gitBranchDiscovery: {}
+
+  - kind: cloudbeesTemplatedJob
+    catalog: demo-catalog
+    name: template-example
+    model: demo-catalog/java-maven
+    attributes:
+      - type: string
+        value: template-example
+        key: name
+      - type: string
+        value: git@github.com:ryecarrigan/simple-maven-project-with-tests.git
+        key: github_repo
+      - type: string
+        value: maven:3-openjdk-11
+        key: maven_image
