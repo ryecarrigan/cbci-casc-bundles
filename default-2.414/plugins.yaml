@@ -68,7 +68,6 @@ plugins:
   - id: kubernetes-client-api
   - id: kubernetes-credentials
   - id: mailer
-  - id: managed-master-hibernation
   - id: mapdb-api
   - id: metrics
   - id: mina-sshd-api-common
