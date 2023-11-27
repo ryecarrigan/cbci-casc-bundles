@@ -2,6 +2,9 @@ kube:
   podTemplatesConfiguration:
     templates:
       - label: "agent"
+        nodeSelector: "jenkins=slave"
+        showRawYaml: false
+        yamlMergeStrategy: "override"
 
 security:
   gitHostKeyVerificationConfiguration:
