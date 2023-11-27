@@ -2,7 +2,7 @@ kube:
   podTemplatesConfiguration:
     templates:
       - label: "agent"
-        nodeSelector: "jenkins=slave"
+        nodeSelector: "jenkins=agent"
         showRawYaml: false
         yamlMergeStrategy: "override"
 
