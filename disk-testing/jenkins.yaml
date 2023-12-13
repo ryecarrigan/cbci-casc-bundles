@@ -2,6 +2,10 @@ jenkins:
   systemMessage: |
     Configured automatically by Configuration as Code for Controllers (disk-testing)
 
+tool:
+  cloudbeesPluginUsageAnalyzer:
+    enabled: false
+
 unclassified:
   buildDiscarders:
     configuredBuildDiscarders: []
