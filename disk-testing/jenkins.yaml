@@ -9,3 +9,5 @@ tool:
 unclassified:
   buildDiscarders:
     configuredBuildDiscarders: []
+  fingerprints:
+    fingerprintCleanupDisabled: true
