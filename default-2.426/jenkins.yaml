@@ -21,3 +21,13 @@ unclassified:
               git:
                 credentialsId: "github-key"
                 remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
+
+credentials:
+  system:
+    domainCredentials:
+      - domain:
+          name: "CasC"
+        - string:
+            id: "casc-secret-child"
+            scope: GLOBAL
+            secret: "secret"

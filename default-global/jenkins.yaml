@@ -23,3 +23,13 @@ unclassified:
   usageStatisticsCloudBees:
     disabledJenkinsUsageStatistics: true
     usageStatisticsCollected: false
+
+credentials:
+  system:
+    domainCredentials:
+      - domain:
+          name: "CasC"
+        - string:
+            id: "casc-secret"
+            scope: GLOBAL
+            secret: "secret"
