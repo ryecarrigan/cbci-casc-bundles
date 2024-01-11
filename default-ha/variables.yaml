@@ -1,2 +1,2 @@
 variables:
-  bundleName: default-ha
+  - bundleName: default-ha
