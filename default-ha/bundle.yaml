@@ -6,4 +6,6 @@ version: '1'
 
 parent: 'default-global'
 jcasc:
-  - 'jenkins.yaml'
+  - jenkins.yaml
+variables:
+  - variables.yaml
