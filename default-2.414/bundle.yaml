@@ -4,8 +4,8 @@ description: 'Default bundle for controllers starting at version 2.414.1'
 availabilityPattern: '.*'
 version: '1'
 
-parent: 'default-global'
-jcasc:
-  - "jenkins.yaml"
+parent: 'default-ha'
 plugins:
-  - 'plugins.yaml'
+  - plugins.yaml
+variables:
+  - variables.yaml

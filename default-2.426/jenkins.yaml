@@ -1,22 +1,3 @@
-
-unclassified:
-  bundleUpdateTiming:
-    automaticReload: true
-  globalLibraries:
-    libraries:
-      - allowVersionOverride: true
-        defaultVersion: "main"
-        implicit: false
-        includeInChangesets: false
-        name: "pipeline-libraries"
-        retriever:
-          modernSCM:
-            clone: true
-            scm:
-              git:
-                credentialsId: "github-key"
-                remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
-
 credentials:
   system:
     domainCredentials:
