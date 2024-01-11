@@ -27,6 +27,7 @@ credentials:
     domainCredentials:
       - domain:
           name: "CasC"
+        credentials:
         - string:
             id: "casc-secret-child"
             scope: GLOBAL
