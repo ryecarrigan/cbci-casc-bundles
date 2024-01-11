@@ -5,6 +5,8 @@ jenkins:
     Configured automatically by Configuration as Code for Controllers (2.414)
 
 unclassified:
+  bundleUpdateTiming:
+    automaticReload: true
   globalLibraries:
     libraries:
       - allowVersionOverride: true

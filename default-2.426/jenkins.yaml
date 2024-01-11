@@ -2,9 +2,11 @@ jenkins:
   clouds:
     - operationsCenterAgentProvisioningService
   systemMessage: |
-    Configured automatically by Configuration as Code for Controllers (2.426) (3)
+    Configured automatically by Configuration as Code for Controllers (2.426)
 
 unclassified:
+  bundleUpdateTiming:
+    automaticReload: true
   globalLibraries:
     libraries:
       - allowVersionOverride: true
