@@ -1,12 +1,12 @@
 jenkins:
-  clouds:
-    - operationsCenterAgentProvisioningService
   systemMessage: |
     Configured automatically by Configuration as Code for Controllers (${bundleName})
 
 unclassified:
   bundleUpdateTiming:
     automaticReload: true
+  cascItemsConfiguration:
+    variableInterpolationEnabledForAdmin: true
   globalLibraries:
     libraries:
       - allowVersionOverride: true
