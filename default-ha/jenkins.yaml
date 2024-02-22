@@ -1,6 +1,6 @@
 jenkins:
   systemMessage: |
-    Configured automatically by Configuration as Code for Controllers (${bundleName}) - HELLO WORLD
+    Configured automatically by Configuration as Code for Controllers (${bundleName})
 
 unclassified:
   bundleUpdateTiming:
