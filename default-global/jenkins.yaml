@@ -16,6 +16,10 @@ security:
   gitHostKeyVerificationConfiguration:
     sshHostKeyVerificationStrategy: "acceptFirstConnectionStrategy"
 
+tool:
+  cloudbeesPluginUsageAnalyzer:
+    enabled: false
+
 unclassified:
   gitHubPluginConfig:
     configs:
