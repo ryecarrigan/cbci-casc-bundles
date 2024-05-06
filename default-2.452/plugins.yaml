@@ -1,6 +1,8 @@
 plugins:
   - id: cloudbees-casc-client
   - id: cloudbees-casc-items-api
+  - id: cloudbees-casc-items-commons
+  - id: cloudbees-casc-items-controller
   - id: cloudbees-casc-shared
   - id: github
   - id: operations-center-client
