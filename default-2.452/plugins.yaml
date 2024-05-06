@@ -5,3 +5,4 @@ plugins:
   - id: github
   - id: operations-center-client
   - id: operations-center-cloud
+  - id: pipeline-groovy-lib
