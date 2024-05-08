@@ -12,7 +12,10 @@ items:
         script: |
           pipeline {
               agent {
-                  kubernetes true
+                  kubernetes {
+                      cloud 'kubernetes'
+                      nodeSelector 'jenkins=agent'
+                  }
               }
 
               stages {

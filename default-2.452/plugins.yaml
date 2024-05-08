@@ -2,6 +2,9 @@ plugins:
   - id: cloudbees-casc-client
   - id: cloudbees-casc-items-controller
   - id: cloudbees-casc-shared
-  - id: github
+  - id: cloudbees-pipeline-explorer
+  - id: github-branch-source
+  - id: infradna-backup
   - id: operations-center-cloud
   - id: pipeline-groovy-lib
+  - id: pipeline-model-definition
