@@ -5,6 +5,8 @@ availabilityPattern: '.*'
 version: '1'
 
 parent: 'default-ha'
+jcasc:
+  - 'jenkins.yaml'
 plugins:
   - 'plugins.yaml'
 variables:
