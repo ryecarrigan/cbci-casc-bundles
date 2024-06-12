@@ -1,0 +1,9 @@
+version: '1'
+type: plugin-catalog
+name: greenballs
+displayName: Catalog for installing Green Balls plugin
+configurations:
+  - description: Green Balls
+    includePlugins:
+      greenballs:
+        version: 1.15.1
