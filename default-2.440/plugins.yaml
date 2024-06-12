@@ -50,6 +50,7 @@ plugins:
   - id: github
   - id: github-api
   - id: github-branch-source
+  - id: greenballs
   - id: handy-uri-templates-2-api
   - id: infradna-backup
   - id: instance-identity
