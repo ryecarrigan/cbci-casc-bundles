@@ -7,7 +7,5 @@ version: '1'
 parent: 'default-ha'
 plugins:
   - 'plugins.yaml'
-catalog:
-  - 'plugin-catalog.yaml'
 variables:
   - 'variables.yaml'

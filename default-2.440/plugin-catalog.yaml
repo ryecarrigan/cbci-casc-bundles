@@ -1,9 +1,0 @@
-version: '1'
-type: plugin-catalog
-name: greenballs
-displayName: Catalog for installing Green Balls plugin
-configurations:
-  - description: Green Balls
-    includePlugins:
-      greenballs:
-        url: http://cjoc.cloudbees-ci.svc.cluster.local/cjoc/updateCenters/content/f5b97331672d268e63e6724cd859d7f3/plugins/greenballs/1.15.1/greenballs.hpi
