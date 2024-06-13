@@ -6,4 +6,4 @@ configurations:
   - description: Green Balls
     includePlugins:
       greenballs:
-        version: 1.15.1
+        url: https://ci.rye.ps.beescloud.com/cjoc/updateCenters/content/f5b97331672d268e63e6724cd859d7f3/plugins/greenballs/1.15.1/greenballs.hpi
