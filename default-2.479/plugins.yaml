@@ -1,2 +1,3 @@
 plugins:
   - id: kubernetes-credentials-provider
+  - id: operations-center-cloud
