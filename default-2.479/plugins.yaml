@@ -1,3 +1,4 @@
 plugins:
+  - id: cloudbees-pipeline-explorer
   - id: kubernetes-credentials-provider
   - id: operations-center-cloud
