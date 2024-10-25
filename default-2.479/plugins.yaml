@@ -1,15 +1,3 @@
 plugins:
-  - id: artifact-manager-s3
-  - id: checks-api
-  - id: cloudbees-casc-items-controller
-  - id: cloudbees-monitoring
-  - id: cloudbees-nodes-plus
   - id: cloudbees-pipeline-explorer
-  - id: cloudbees-workflow-template
   - id: github-branch-source
-  - id: infradna-backup
-  - id: node-iterator-api
-  - id: notification-api
-  - id: operations-center-cloud
-  - id: pipeline-event-step
-  - id: workflow-cps-checkpoint
