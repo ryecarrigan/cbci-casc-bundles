@@ -1,4 +1,6 @@
 plugins:
   - id: cloudbees-pipeline-explorer
+  - id: github
+  - id: github-branch-source
   - id: kubernetes-credentials-provider
   - id: operations-center-cloud
