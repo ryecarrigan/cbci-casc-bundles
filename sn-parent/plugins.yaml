@@ -1,2 +1,3 @@
 plugins:
+  - id: junit
   - id: servicenow-devops
