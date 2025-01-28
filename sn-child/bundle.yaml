@@ -1,0 +1,9 @@
+apiVersion: '1'
+id: 'sn-child'
+description: 'SN plugin child'
+availabilityPattern: '.*'
+version: '1'
+
+parent: 'sn-parent'
+jcasc:
+  - jenkins.yaml

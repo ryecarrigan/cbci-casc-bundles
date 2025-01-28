@@ -1,0 +1,14 @@
+unclassified:
+  snDevOpsConfig:
+    entries:
+      - active: true
+        apiVersion: "v2"
+        credentialsId: "github-pat"
+        defaultConnection: true
+        instanceUrl: "https://testing"
+        name: "connection-name"
+        secretCredentialId: "github-token"
+        toolId: "sys_id"
+        trackCheck: false
+        trackPullRequestPipelinesCheck: false
+    logLevel: "inherit"
