@@ -1,0 +1,9 @@
+type: plugin-catalog
+version: '1'
+name: sn-devops
+displayName: SN Devops
+configurations:
+  - description: Exported plugins
+    includePlugins:
+      servicenow-devops:
+        version: 5.0.0
