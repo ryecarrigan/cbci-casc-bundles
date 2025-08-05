@@ -2,7 +2,7 @@ jenkins:
   clouds:
     - operationsCenterAgentProvisioningService
   systemMessage: |
-    Configured automatically by Configuration as Code for Controllers (${bundleName})
+    Configured automatically by CloudBees Configuration as Code for Controllers (${bundleName})
 
 kube:
   podTemplatesConfiguration:
@@ -33,14 +33,3 @@ unclassified:
   usageStatisticsCloudBees:
     disabledJenkinsUsageStatistics: true
     usageStatisticsCollected: false
-
-credentials:
-  system:
-    domainCredentials:
-      - domain:
-          name: "CasC"
-        credentials:
-        - string:
-            id: "casc-secret"
-            scope: GLOBAL
-            secret: "secret"
