@@ -3,6 +3,8 @@ jenkins:
     - operationsCenterAgentProvisioningService
   systemMessage: |
     Configured automatically by CloudBees Configuration as Code for Controllers (${bundleName})
+    
+    MASTER_NAME=${MASTER_NAME}:MASTER_DOMAIN=${MASTER_DOMAIN}
 
 kube:
   podTemplatesConfiguration:
