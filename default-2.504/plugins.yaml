@@ -1,10 +1,12 @@
 plugins:
   - id: artifact-manager-s3
+  - id: cloudbees-build-strategies-plugin
   - id: cloudbees-casc-client
   - id: cloudbees-casc-items-controller
   - id: cloudbees-pipeline-explorer
   - id: github
   - id: github-branch-source
+  - id: junit
   - id: kubernetes-credentials-provider
   - id: operations-center-cloud
   - id: pipeline-groovy-lib
