@@ -1,0 +1,38 @@
+removeStrategy:
+  items: 'SYNC'
+  rbac: 'SYNC'
+
+items:
+  - kind: folder
+    name: team-projects
+    description: Controllers for team's projects
+    displayName: Team Projects
+    groups:
+      - name: team-folder
+        members:
+          users:
+            - orange
+            - purple
+            - rye
+        roles:
+          - name: browser
+            grantedAt: current
+            propagates: false
+      - name: team-folder-admin
+        members:
+          users:
+            - orange
+            - rye
+        roles:
+          - name: administrator
+            grantedAt: child
+          - name: developer
+            grantedAt: current
+      - name: team-folder-developer
+        members:
+          internal_groups:
+            - team-folder
+        roles:
+          - name: developer
+            grantedAt: child
+            propagates: true

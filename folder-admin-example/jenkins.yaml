@@ -1,0 +1,2 @@
+jenkins:
+  authorizationStrategy: cloudBeesRoleBasedAccessControl
