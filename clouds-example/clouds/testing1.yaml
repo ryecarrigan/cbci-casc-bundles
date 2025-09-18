@@ -1,7 +1,0 @@
-jenkins:
-  clouds:
-    - kubernetes:
-        containerCap: 10
-        name: "testing-1"
-        usageRestricted: true
-        webSocket: true

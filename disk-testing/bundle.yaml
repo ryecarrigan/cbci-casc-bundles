@@ -1,9 +1,0 @@
-apiVersion: '1'
-id: 'disk-testing'
-description: 'Testing bundle for disk performance project'
-availabilityPattern: '.*'
-version: '1'
-
-parent: 'default-2.426'
-jcasc:
-  - "jenkins.yaml"
