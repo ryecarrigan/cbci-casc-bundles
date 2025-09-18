@@ -1,2 +1,2 @@
 jenkins:
-  systemMessage: "authorizationStrategy: cloudBeesRoleBasedAccessControl"
+  authorizationStrategy: cloudBeesRoleBasedAccessControl
