@@ -1,11 +1,12 @@
-apiVersion: '1'
+apiVersion: '2'
 id: 'default'
 description: 'Default High Availability bundle'
 availabilityPattern: '.*'
 version: '1'
 
-parent: 'default-global'
 jcasc:
   - jenkins.yaml
+items:
+  - items.yaml
 variables:
   - variables.yaml
