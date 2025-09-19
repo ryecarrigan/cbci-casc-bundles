@@ -1,3 +1,7 @@
+removeStrategy:
+  items: SYNC
+  rbac: SYNC
+
 items:
   - kind: pipeline
     name: pipeline-example
