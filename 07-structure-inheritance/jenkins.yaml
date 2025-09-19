@@ -1,4 +1,2 @@
 jenkins:
-  clouds:
-    - operationsCenterAgentProvisioningService
-  systemMessage: "My CasC bundle with multiple files"
+  systemMessage: "My CasC bundle with inheritance"
