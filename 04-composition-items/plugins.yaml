@@ -2,3 +2,4 @@ plugins:
   - id: cloudbees-casc-client
   - id: cloudbees-casc-items-controller
   - id: dark-theme
+  - id: operations-center-cloud
