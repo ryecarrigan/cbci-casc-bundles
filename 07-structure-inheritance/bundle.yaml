@@ -1,0 +1,10 @@
+id: 07-structure-inheritance
+version: 1
+apiVersion: 2
+description: Minimal bundle with inheritance
+
+parent: '06-structure-files'
+jcascMergeStrategy: override
+
+jcasc:
+  - jenkins.yaml
