@@ -1,0 +1,10 @@
+id: '02-composition-plugins'
+version: '1'
+apiVersion: '2'
+description: 'Minimal bundle with plugins'
+availabilityPattern: '.*'
+
+jcasc:
+  - jenkins.yaml
+plugins:
+  - plugins.yaml

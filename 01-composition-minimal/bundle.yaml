@@ -1,0 +1,8 @@
+id: '01-composition-minimal'
+version: '1'
+apiVersion: '2'
+description: 'Minimal bundle'
+availabilityPattern: '.*'
+
+jcasc:
+  - jenkins.yaml

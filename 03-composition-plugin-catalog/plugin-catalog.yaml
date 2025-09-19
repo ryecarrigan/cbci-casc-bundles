@@ -1,0 +1,11 @@
+type: "plugin-catalog"
+version: "1"
+name: "plugin-catalog"
+displayName: "Plugin catalog"
+configurations:
+  - description: "Extensions to CAP"
+    includePlugins:
+      dark-theme:
+        version: 574.va_19f05d54df5
+      theme-manager:
+        version: 310.v234c7de84f9

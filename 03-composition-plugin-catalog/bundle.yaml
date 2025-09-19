@@ -1,0 +1,12 @@
+id: '03-composition-plugin-catalog'
+version: '1'
+apiVersion: '2'
+description: 'Minimal bundle with plugin catalog'
+availabilityPattern: '.*'
+
+jcasc:
+  - jenkins.yaml
+plugins:
+  - plugins.yaml
+catalog:
+  - plugin-catalog.yaml
