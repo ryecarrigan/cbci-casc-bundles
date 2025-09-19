@@ -1,0 +1,12 @@
+id: '04-composition-items'
+version: '1'
+apiVersion: '2'
+description: 'Minimal bundle with items'
+availabilityPattern: '.*'
+
+jcasc:
+  - jenkins.yaml
+plugins:
+  - plugins.yaml
+items:
+  - items.yaml
