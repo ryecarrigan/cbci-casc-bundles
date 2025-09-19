@@ -1,0 +1,15 @@
+removeStrategy:
+  items: SYNC
+  rbac: SYNC
+
+items:
+  - kind: managedController
+    name: testing1
+    configuration:
+      kubernetes:
+        domain: testing1
+  - kind: managedController
+    name: testing2
+    configuration:
+      kubernetes:
+        domain: testing2

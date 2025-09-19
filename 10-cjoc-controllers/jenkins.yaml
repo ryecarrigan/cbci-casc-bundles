@@ -1,0 +1,50 @@
+jenkins:
+  numExecutors: 0
+  systemMessage: |
+    Minimal bundle with auto-reload and provisioning
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
+  securityRealm:
+    local:
+      users:
+        - id: "rye"
+          name: "Rye Carrigan"
+          password: ${decodeBase64:${adminPassword}}
+
+cloudBeesCasCServer:
+  defaultBundle: "main/default-2.516.3"
+
+unclassified:
+  bundleStorageService:
+    activated: true
+    bundles:
+      - name: "CBCI CasC Bundles"
+        retriever:
+          SCM:
+            defaultVersion: "main"
+            scmSource:
+              git:
+                remote: "https://github.com/ryecarrigan/cbci-casc-bundles.git"
+                traits:
+                  - "gitBranchDiscovery"
+    pollingPeriod: 600
+    purgeOnDeactivation: true
+
+  bundleUpdateTiming:
+    automaticReload: true
+
+  cascItemsConfiguration:
+    variableInterpolationEnabledForAdmin: true
+
+  cascAutoControllerProvisioning:
+    duration: 60
+    fireAndForget: true
+    initialDelay: 15
+    provisionControllerOnCreation: true
+    timeout: 600
+
+  validationVisualization:
+    quiet: true
+
+license:
+  certificate: ${licenseCert}
+  key: ${licenseKey}

@@ -1,0 +1,3 @@
+plugins:
+- id: cloudbees-casc-client
+- id: cloudbees-casc-items-server

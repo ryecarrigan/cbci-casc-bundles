@@ -1,0 +1,6 @@
+apiVersion: "2"
+id: "cjoc"
+version: "1"
+
+jcasc:
+  - "jenkins.yaml"

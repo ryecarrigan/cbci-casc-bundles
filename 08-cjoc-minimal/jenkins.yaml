@@ -1,0 +1,15 @@
+jenkins:
+  numExecutors: 0
+  systemMessage: |
+    Minimal bundle for the operations center
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
+  securityRealm:
+    local:
+      users:
+        - id: "rye"
+          name: "Rye Carrigan"
+          password: ${decodeBase64:${adminPassword}}
+
+license:
+  certificate: ${licenseCert}
+  key: ${licenseKey}
