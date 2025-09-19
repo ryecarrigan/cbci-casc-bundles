@@ -1,0 +1,5 @@
+jenkins:
+  authorizationStrategy: cloudBeesRoleBasedAccessControl
+  clouds:
+    - operationsCenterAgentProvisioningService
+  systemMessage: "My CasC bundle with RBAC"

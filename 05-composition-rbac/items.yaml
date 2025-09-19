@@ -1,0 +1,47 @@
+removeStrategy:
+  items: SYNC
+  rbac: SYNC
+
+items:
+  - kind: folder
+    name: folder-example
+    groups:
+      - name: folder-view
+        members:
+          users:
+            - rye
+        roles:
+          - name: browser
+            grantedAt: current
+            propagates: false
+      - name: folder-admin
+        members:
+          users:
+            - rye
+        roles:
+          - name: administrator
+            grantedAt: child
+          - name: developer
+            grantedAt: current
+    items:
+      - kind: pipeline
+        name: pipeline-example
+        displayName: Pipeline Job example
+        definition:
+          cpsFlowDefinition:
+            sandbox: true
+            script: |
+              pipeline {
+                  agent {
+                      kubernetes {
+                      }
+                  }
+    
+                  stages {
+                      stage('Hello') {
+                          steps {
+                              echo 'Hello world!'
+                          }
+                      }
+                  }
+              }

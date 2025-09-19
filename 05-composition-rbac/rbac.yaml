@@ -1,0 +1,35 @@
+removeStrategy:
+  rbac: "SYNC"
+
+groups:
+  - name: Administrators
+    members:
+      users:
+        - rye
+    roles:
+      - name: administrator
+        grantedAt: current
+        propagates: true
+  - name: Browsers
+    roles:
+      - name: browser
+        grantedAt: current
+        propagates: false
+roles:
+  - name: administrator
+    filterable: false
+    permissions:
+      - hudson.model.Hudson.Administer
+  - name: browser
+    filterable: true
+    permissions:
+      - hudson.model.Item.Discover
+      - hudson.model.Item.Read
+      - hudson.model.View.Read
+  - name: authenticated
+    filterable: false
+    permissions:
+      - hudson.model.Hudson.Read
+  - name: anonymous
+    filterable: false
+    permissions: []

@@ -1,0 +1,14 @@
+id: '05-composition-rbac'
+version: '1'
+apiVersion: '2'
+description: 'Minimal bundle with RBAC'
+availabilityPattern: '.*'
+
+jcasc:
+  - jenkins.yaml
+plugins:
+  - plugins.yaml
+items:
+  - items.yaml
+rbac:
+  - rbac.yaml
