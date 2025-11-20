@@ -38,7 +38,7 @@ unclassified:
           modernSCM:
             clone: true
             scm:
-              git:
+              gitSource:
                 credentialsId: "github-key"
                 remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
   gitHubPluginConfig:
