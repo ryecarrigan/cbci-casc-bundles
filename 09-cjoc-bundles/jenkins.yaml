@@ -22,7 +22,7 @@ unclassified:
           SCM:
             defaultVersion: "main"
             scmSource:
-              git:
+              gitSource:
                 remote: "https://github.com/ryecarrigan/cbci-casc-bundles.git"
                 traits:
                   - "gitBranchDiscovery"
