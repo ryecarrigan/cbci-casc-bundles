@@ -8,7 +8,7 @@ configurations:
       ansicolor:
         version: 1.0.4
       audit-trail:
-        version: 361.v82cde86c784e
+        url: https://updates.jenkins.example/download/plugins/audit-trail/361.v82cde86c784e/audit-trail.hpi
       basic-branch-build-strategies:
         version: 81.v05e333931c7d
       bootstrap4-api:
