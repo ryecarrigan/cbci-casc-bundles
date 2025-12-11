@@ -1,0 +1,28 @@
+removeStrategy:
+  items: 'NONE'
+  rbac: 'SYNC'
+
+items:
+  - kind: pipeline
+    name: pipeline-example
+    displayName: Pipeline Job example
+    definition:
+      cpsFlowDefinition:
+        sandbox: true
+        script: |
+          pipeline {
+              agent {
+                  kubernetes {
+                      cloud 'kubernetes'
+                      nodeSelector 'jenkins=agent'
+                  }
+              }
+
+              stages {
+                  stage('Hello') {
+                      steps {
+                          echo 'Hello World'
+                      }
+                  }
+              }
+          }

@@ -1,0 +1,12 @@
+apiVersion: '2'
+id: 'default-legacy'
+description: 'Default legacy High Availability bundle'
+availabilityPattern: '.*'
+version: '1'
+
+jcasc:
+  - jenkins.yaml
+items:
+  - items.yaml
+variables:
+  - variables.yaml

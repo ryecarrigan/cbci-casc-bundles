@@ -1,0 +1,55 @@
+jenkins:
+  clouds:
+    - operationsCenterAgentProvisioningService
+  systemMessage: |
+    Configured automatically by CloudBees Configuration as Code for Controllers (${bundleName})
+    
+    Java: ${java.version}
+
+kube:
+  podTemplatesConfiguration:
+    templates:
+      - label: "agent"
+        nodeSelector: "jenkins=agent"
+        showRawYaml: false
+        yamlMergeStrategy: "override"
+
+security:
+  gitHostKeyVerificationConfiguration:
+    sshHostKeyVerificationStrategy: "acceptFirstConnectionStrategy"
+
+tool:
+  cloudbeesPluginUsageAnalyzer:
+    enabled: false
+
+unclassified:
+  bundleUpdateTiming:
+    automaticReload: true
+  cascItemsConfiguration:
+    variableInterpolationEnabledForAdmin: true
+  globalLibraries:
+    libraries:
+      - allowVersionOverride: true
+        defaultVersion: "main"
+        implicit: false
+        includeInChangesets: false
+        name: "pipeline-libraries"
+        retriever:
+          modernSCM:
+            clone: true
+            scm:
+              git:
+                credentialsId: "github-key"
+                remote: "git@github.com:ryecarrigan/pipeline-libraries.git"
+  gitHubPluginConfig:
+    configs:
+      - credentialsId: "github-token"
+        name: "GitHub"
+    hookUrl: "$JENKINS_BASE_URL/github-webhook/"
+  provisioningLimitConfiguration:
+    limit:
+      executors: 50
+      nodes: 50
+  usageStatisticsCloudBees:
+    disabledJenkinsUsageStatistics: true
+    usageStatisticsCollected: false
