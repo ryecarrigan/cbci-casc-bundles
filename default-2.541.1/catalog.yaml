@@ -3,8 +3,8 @@ version: "1"
 name: "plugin-catalog"
 displayName: "Plugin catalog"
 configurations:
-  - description: "Extensions to CAP"
-    includePlugins:
+  - description: "CAP Exceptions"
+    beekeeperExceptions:
       credentials-binding:
         version: 720.v3f6decef43ea_
       github-branch-source:
