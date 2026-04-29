@@ -4,7 +4,7 @@ description: 'Default bundle for controllers starting at version 2.541.3'
 availabilityPattern: '.*'
 version: '1'
 
-allowCapExceptions: true
+allowCapExceptions: false
 parent: 'default-ha'
 jcasc:
   - 'jenkins.yaml'
