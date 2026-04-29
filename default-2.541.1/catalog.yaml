@@ -1,0 +1,13 @@
+type: "plugin-catalog"
+version: "1"
+name: "plugin-catalog"
+displayName: "Plugin catalog"
+configurations:
+  - description: "Extensions to CAP"
+    includePlugins:
+      credentials-binding:
+        version: 720.v3f6decef43ea_
+      github-branch-source:
+        version: 1967.1969.v205fd594c821
+      script-security:
+        version: 1402.v94c9ce464861
