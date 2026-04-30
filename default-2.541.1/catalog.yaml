@@ -5,12 +5,4 @@ displayName: "Plugin catalog"
 configurations:
   - description: "Plugin Catalog"
     includePlugins: []
-    beekeeperExceptions:
-      credentials-binding:
-        version: 720.v3f6decef43ea_
-      github:
-        version: 1.46.0.1
-      github-branch-source:
-        version: 1967.1969.v205fd594c821
-      script-security:
-        version: 1402.v94c9ce464861
+    beekeeperExceptions: []
