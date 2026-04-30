@@ -1,8 +1,0 @@
-type: "plugin-catalog"
-version: "1"
-name: "plugin-catalog"
-displayName: "Plugin catalog"
-configurations:
-  - description: "Plugin Catalog"
-    includePlugins: {}
-    beekeeperExceptions: {}
