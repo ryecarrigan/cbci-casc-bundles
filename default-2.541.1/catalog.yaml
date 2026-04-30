@@ -4,5 +4,5 @@ name: "plugin-catalog"
 displayName: "Plugin catalog"
 configurations:
   - description: "Plugin Catalog"
-    includePlugins: []
-    beekeeperExceptions: []
+    includePlugins: {}
+    beekeeperExceptions: {}
