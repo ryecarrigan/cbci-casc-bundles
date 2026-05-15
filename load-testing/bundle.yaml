@@ -1,0 +1,14 @@
+apiVersion: '2'
+id: 'load-testing'
+description: 'Default bundle for load testing controller'
+availabilityPattern: '.*'
+version: '1'
+
+allowCapExceptions: true
+parent: 'default-ha'
+jcasc:
+  - 'jenkins.yaml'
+plugins:
+  - 'plugins.yaml'
+variables:
+  - 'variables.yaml'
