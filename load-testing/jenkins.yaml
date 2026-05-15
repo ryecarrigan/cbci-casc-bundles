@@ -1,3 +1,6 @@
+jenkins:
+  quietPeriod: 0
+
 appearance:
   consoleUrlProvider:
     providers:
