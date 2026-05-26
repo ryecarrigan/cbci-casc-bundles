@@ -3,7 +3,7 @@ jenkins:
     - operationsCenterAgentProvisioningService
   quietPeriod: 0
   systemMessage: |
-    Configured automatically by CloudBees Configuration as Code for Controllers (update)
+    Configured automatically by CloudBees Configuration as Code for Controllers
     
     Java: ${java.version}
 
