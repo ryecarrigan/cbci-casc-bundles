@@ -11,3 +11,5 @@ items:
   - 'items.yaml'
 plugins:
   - 'plugins.yaml'
+catalog:
+  - 'catalog.yaml'
