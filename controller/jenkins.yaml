@@ -1,6 +1,7 @@
 jenkins:
   clouds:
     - operationsCenterAgentProvisioningService
+  quietPeriod: 0
   systemMessage: |
     Configured automatically by CloudBees Configuration as Code for Controllers
     
