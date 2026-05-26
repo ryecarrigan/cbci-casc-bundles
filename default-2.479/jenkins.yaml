@@ -1,4 +1,0 @@
-appearance:
-  consoleUrlProvider:
-    providers:
-      - "cloudbeesPipelineExplorer"

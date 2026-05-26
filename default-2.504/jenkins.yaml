@@ -1,8 +1,0 @@
-appearance:
-  consoleUrlProvider:
-    providers:
-      - "cloudbeesPipelineExplorer"
-
-unclassified:
-  cloudbeesPipelineExplorer:
-    pluggableStorageEnabled: true
