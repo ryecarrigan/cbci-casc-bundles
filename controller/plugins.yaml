@@ -14,3 +14,11 @@ plugins:
   - id: pipeline-model-definition
   - id: workflow-basic-steps
   - id: workflow-multibranch
+  - id: credentials-binding
+    version: 720.v3f6decef43ea_
+  - id: github
+    version: 1.46.0.1
+  - id: github-branch-source
+    version: 1967.1969.v205fd594c821
+  - id: script-security
+    version: 1402.v94c9ce464861
