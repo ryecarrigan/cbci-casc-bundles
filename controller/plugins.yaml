@@ -4,6 +4,7 @@ plugins:
   - id: cloudbees-casc-client
   - id: cloudbees-casc-items-controller
   - id: cloudbees-pipeline-explorer
+  - id: dark-theme
   - id: github
   - id: github-branch-source
   - id: junit
