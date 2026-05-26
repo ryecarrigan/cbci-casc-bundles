@@ -2,9 +2,14 @@ jenkins:
   clouds:
     - operationsCenterAgentProvisioningService
   systemMessage: |
-    Configured automatically by CloudBees Configuration as Code for Controllers (${bundleName})
+    Configured automatically by CloudBees Configuration as Code for Controllers
     
     Java: ${java.version}
+
+appearance:
+  consoleUrlProvider:
+    providers:
+      - "cloudbeesPipelineExplorer"
 
 kube:
   podTemplatesConfiguration:
@@ -20,13 +25,15 @@ security:
 
 tool:
   cloudbeesPluginUsageAnalyzer:
-    enabled: false
+    enabled: true
 
 unclassified:
   bundleUpdateTiming:
     automaticReload: true
   cascItemsConfiguration:
     variableInterpolationEnabledForAdmin: true
+  cloudbeesPipelineExplorer:
+    pluggableStorageEnabled: true
   globalLibraries:
     libraries:
       - allowVersionOverride: true
