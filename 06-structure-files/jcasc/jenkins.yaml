@@ -1,4 +1,0 @@
-jenkins:
-  clouds:
-    - operationsCenterAgentProvisioningService
-  systemMessage: "My CasC bundle with multiple files"
