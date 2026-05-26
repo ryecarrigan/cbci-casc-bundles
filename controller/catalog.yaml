@@ -1,6 +1,5 @@
 configurations:
-  - description: "Plugin Catalog"
-    includePlugins: []
+  - description: "CAP Exceptions"
     beekeeperExceptions:
       credentials-binding:
         version: 720.v3f6decef43ea_
