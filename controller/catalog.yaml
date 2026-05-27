@@ -6,11 +6,19 @@ displayName: "Plugin Catalog"
 configurations:
   - description: "CAP Exceptions"
     beekeeperExceptions:
+      active-directory:
+        version: 2.41.1
       credentials-binding:
-        version: 720.v3f6decef43ea_
+        version: 725.ve52b_2328a_fde
+      email-ext:
+        version: 1933.1935.v276319e3cc47
       github:
         version: 1.46.0.1
       github-branch-source:
         version: 1967.1969.v205fd594c821
+      ldap:
+        version: 807.809.vd3a_4e5e4ec98
+      pipeline-groovy-lib:
+        version: 798.v5cc688825312
       script-security:
         version: 1402.v94c9ce464861
