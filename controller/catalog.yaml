@@ -13,8 +13,6 @@ configurations:
         version: '1.11.2'
       view-job-filters:
         version: '406.va_0ec67147ee2'
-      workflow-cps:
-        version: '4275.vb_0565eb_a_3d36'
       matrix-project:
         version: '870.v9db_fcfc2f45b_'
     beekeeperExceptions:
