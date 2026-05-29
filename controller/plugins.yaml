@@ -96,6 +96,7 @@ plugins:
   - id: oidc-provider
   - id: okhttp-api
   - id: operations-center-agent
+  - id: operations-center-cloud
   - id: operations-center-context
   - id: plain-credentials
   - id: plugin-util-api
