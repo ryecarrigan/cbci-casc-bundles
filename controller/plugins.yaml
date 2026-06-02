@@ -4,6 +4,7 @@ plugins:
   - id: cloudbees-casc-client
   - id: cloudbees-casc-items-controller
   - id: cloudbees-pipeline-explorer
+  - id: cloudbees-replication
   - id: dark-theme
   - id: github
   - id: github-branch-source
@@ -12,5 +13,6 @@ plugins:
   - id: operations-center-cloud
   - id: pipeline-groovy-lib
   - id: pipeline-model-definition
+  - id: prometheus
   - id: workflow-basic-steps
   - id: workflow-multibranch
