@@ -2,4 +2,4 @@ jenkins:
   clouds:
     - operationsCenterAgentProvisioningService
   systemMessage: |
-    Configured automatically by CloudBees Configuration as Code for Controllers (update 1)
+    Configured automatically by CloudBees Configuration as Code for Controllers (update 2)
