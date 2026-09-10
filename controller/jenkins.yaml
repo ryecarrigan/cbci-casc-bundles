@@ -7,11 +7,6 @@ jenkins:
     
     Java: ${java.version}
 
-appearance:
-  consoleUrlProvider:
-    providers:
-      - "cloudbeesPipelineExplorer"
-
 kube:
   podTemplatesConfiguration:
     templates:
